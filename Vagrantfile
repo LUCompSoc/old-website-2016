@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
     config.vm.synced_folder ".", "/var/www/html", :mount_options => ["dmode=777", "fmode=666"]
 
     config.vm.provider "virtualbox" do |v|
-        v.memory = 512
+        v.memory = 2048
         v.cpus = 1
     end
 
