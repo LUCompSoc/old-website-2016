@@ -6,4 +6,8 @@ This is the main site for LUCSS which is built ontop of [October](https://octobe
 
 It's actually pretty simple, as long as you've got [Vagrant](https://vagrantup.com) installed. Use the sample `Vagrantfile` to configure your hypervisor and point `compsoc.lancs.local` to the configured IP.
 
-Once that's done, ssh into the hypervisor and run `php artisan october:install` in the installed folder.
+Rename `.env.example` to `.env`
+
+Once that's done, ssh into the hypervisor and run `composer install` followed by `php artisan october:up`.
+
+Navigate to `http://compsoc.lancs.local/backend` and you can use `admin` 
