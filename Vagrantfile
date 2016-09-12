@@ -1,0 +1,17 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+
+    config.vm.box = "scotch/box"
+    config.vm.network "public_network", ip: "192.168.1.180"
+
+    config.vm.hostname = "lucss"
+    config.vm.synced_folder ".", "/var/www/html", :mount_options => ["dmode=777", "fmode=777"], :owner=> 'mmuser', :group=>'mmuser'
+
+    config.vm.provider "virtualbox" do |v|
+        v.memory = 2048
+        v.cpus = 1
+    end
+
+end
