@@ -1,0 +1,38 @@
+name: 'User Menu'
+items:
+    -
+        title: Profile
+        type: cms-page
+        code: ''
+        reference: profile
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+        items:
+            -
+                title: Logout
+                nesting: ''
+                type: url
+                url: '#'
+                code: data-request=onLogout
+                reference: ''
+                cmsPage: ''
+                replace: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: Logout
+        nesting: ''
+        type: url
+        url: '#'
+        code: data-request=onLogout
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'

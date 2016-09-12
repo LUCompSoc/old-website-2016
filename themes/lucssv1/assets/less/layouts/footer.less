@@ -1,0 +1,99 @@
+//
+// Footer
+// --------------------------------------------------
+
+#layout-footer {
+    background-color: @brand-primary;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: @silver;
+    line-height: 25px;
+
+    .university-logo {
+        display: block;
+        background-image: url('../images/university-logo.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 66px;
+        width: 215px;
+        margin-bottom: 10px;
+    }
+
+    .external-link {
+        margin-left: 10px;
+        font-size: 13px;
+    }
+
+    address, p {
+        line-height: 130%;
+    }
+
+    address a {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    a {
+        font-weight: normal;
+        color: @silver;
+        &:hover,
+        &:focus,
+        &.active {
+            color: mix(@silver, black, 80%);
+        }
+    }
+    nav {
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+            color: @silver;
+            li {
+                float: left;
+                margin-left: 25px;
+                line-height: 25px;
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+    .social-btns {
+        padding: 0;
+        li {
+            list-style: none;
+            i {
+                padding-right: 10px;
+                width: 34px;
+                text-align: center;
+            }
+        }
+    }
+    .policies {
+        font-size: 12px;
+        color: @silver;
+        a {
+            text-decoration: underline;
+        }
+    }
+    @media (max-width: 480px) {
+        padding-top: 28px;
+        padding-bottom: 28px;
+        > .container > * {
+            float: none !important;
+            .clearfix();
+        }
+        nav ul li {
+            float: none;
+            margin: 18px 0 0;
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+        .social-btns {
+            margin: 25px 0 10px;
+        }
+    }
+}
+

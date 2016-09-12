@@ -1,0 +1,13 @@
+name: 'About Menu'
+items:
+    -
+        title: Executive
+        nesting: '0'
+        type: static-page
+        code: ''
+        reference: about-executive
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'

@@ -1,0 +1,4 @@
+1.0.0: First version of compsoc-university integration.
+1.0.1:
+    - Add user profiles fields to users table
+    - add_user_profile_fields.php

@@ -1,0 +1,36 @@
+# ===================================
+#  List Behavior Config
+# ===================================
+
+# Model List Column configuration
+list: ~/plugins/radiantweb/proevents/models/generated_dates/columns.yaml
+
+# Model Class name
+model-class: Radiantweb\Proevents\Models\GeneratedDate
+
+# List Title
+title: Manage Generated Events
+
+# Link URL for each record
+record-url: radiantweb/proevents/generated_dates/update/:id
+
+# Message to display if the list is empty
+no-records-message: backend::lang.list.no_records
+
+# Records to display per page
+records-per-page: 20
+
+# Display checkboxes next to each record
+show-checkboxes: yes
+
+# Toolbar widget configuration
+toolbar:
+    # Partial for toolbar buttons
+    # buttons: list_toolbar
+
+    # Search widget configuration
+    search:
+        prompt: backend::lang.list.search_prompt
+
+
+

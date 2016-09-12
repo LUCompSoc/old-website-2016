@@ -1,0 +1,14 @@
+[blogCategories]
+slug = "{{ :slug }}"
+displayEmpty = 1
+categoryPage = "posts"
+
+[viewBag]
+==
+<!-- Categories -->
+<div class="panel panel-default">
+    <div class="panel-heading">
+        Categories
+    </div>
+    {% component 'blogCategories' %}
+</div>

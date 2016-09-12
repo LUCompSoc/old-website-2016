@@ -1,0 +1,25 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+  title:
+    label: radiantweb.proevents::lang.backend.events.columns.title
+    searchable: true
+
+  author:
+    label: radiantweb.proevents::lang.backend.events.columns.author
+    relation: user
+    select: login
+
+  calendars:
+    label: radiantweb.proevents::lang.backend.events.columns.calendar
+    relation: calendar
+    select: name
+
+  multidate:
+    label: radiantweb.proevents::lang.backend.events.columns.date
+    type: partial
+    path: ~/plugins/radiantweb/proevents/models/event/_multidate_render.htm
+    searchable: true

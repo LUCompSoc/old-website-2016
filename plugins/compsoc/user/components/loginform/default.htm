@@ -1,0 +1,24 @@
+{% flash %}
+    <div class="alert alert-{{ type == 'error' ? 'danger' : type }}">
+        {{ message }}
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+    </div>
+{% endflash %}
+
+{% if authorised %}
+
+    <div class="alert alert-success login-processing row">
+        <div class="col-sm-4 col-sm-offset-1 text-center">
+            <i class="fa fa-refresh fa-spin fa-5x fa-fw"></i>
+        </div>
+        <div class="col-sm-7">
+            <h5>Loading...</h5>
+            <p>We are processing your request...</p>
+        </div>
+    </div>
+
+{% else %}
+
+    <a class="btn btn-authenticate" href="{{ jwt_auth_url }}">Use Lancaster University WebLogin</a>
+
+{% endif %}

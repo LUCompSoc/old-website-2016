@@ -1,0 +1,1221 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"rout",
+				"routeMiddleware"
+			],
+			[
+				"Middl",
+				"middlewares"
+			],
+			[
+				"reg",
+				"register"
+			],
+			[
+				"tablet_",
+				"tablet_is_activated"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"talb",
+				"table-cell"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"prod",
+				"product_id"
+			],
+			[
+				"vehi",
+				"vehicle_found"
+			],
+			[
+				"stat",
+				"station_check"
+			],
+			[
+				"police",
+				"police_admin"
+			],
+			[
+				"last",
+				"latest_firmware"
+			],
+			[
+				"dis",
+				"district_ids"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"ava",
+				"available_devices"
+			],
+			[
+				"potent",
+				"potential_devices"
+			],
+			[
+				"preg_Mat",
+				"preg_match_all"
+			],
+			[
+				"winfo",
+				"winfo_screenheight"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "plugins/compsoc/user/components/RegisterForm.php",
+			"settings":
+			{
+				"buffer_size": 4802,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "plugins/compsoc/user/components/LoginForm.php",
+			"settings":
+			{
+				"buffer_size": 3855,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "plugins/compsoc/user/lang/en/lang.php",
+			"settings":
+			{
+				"buffer_size": 2198,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/default/uni/lucss/web/html/modules/backend/behaviors/RelationController.php",
+			"settings":
+			{
+				"buffer_size": 45338,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "plugins/compsoc/user/components/registerform/default.htm",
+			"settings":
+			{
+				"buffer_size": 4708,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "plugins/compsoc/user/classes/Mattermost.php",
+			"settings":
+			{
+				"buffer_size": 552,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/assets",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/assets/js",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/classes",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/components",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/components/registerform",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/lang",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/lang/en",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/partials",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/radiantweb",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/radiantweb/proevents",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/radiantweb/proevents/components",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/radiantweb/proevents/components/event",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/blog",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/blog/components",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/layouts",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/pages",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/vendor/laravel",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/vendor/laravel/framework",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/vendor/laravel/framework/src",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/vendor/laravel/framework/src/Illuminate",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/vendor/october/rain"
+	],
+	"file_history":
+	[
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/pages/join.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/pages/register.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/components/RegisterForm.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/assets/js/register.js",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/lang/en/lang.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/pages/login.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/.env",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/assets/javascript/app.js",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/assets/less/controls/forms.less",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/assets/less/controls/all.less",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web2/content/5-join/lifetime-membership/join-form.txt",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web2/content/5-join/page-sidebar.txt",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/components/LoginForm.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/config/database.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/partials/flash-messages.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/components/registerForm/flash-messages.htm",
+		"/home/default/uni/lucss/web/html/modules/cms/classes/Controller.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/modules/cms/classes/ComponentPartial.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/components/registerform/default.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/layouts/default.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/layouts/private.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/layouts/static.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/models/Mattermost.php",
+		"/home/default/uni/lucss/web/html/modules/cms/classes/ComponentBase.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/assets/vendor/flat-ui/js/flatui-checkbox.js",
+		"/home/default/uni/lucss/web/plugins/rainlab/user/components/Account.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/user/components/account/register.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/profile/updates/create_entries_table.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/profile/models/entry/fields.yaml",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/profile/models/Entry.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/profile/components/entryForm/default.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/profile/components/EntryForm.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/profile/Plugin.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/profile/updates/create_profiles_table.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/profile/models/Profile.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/Vagrantfile",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/plugins/compsoc/profile/controllers/Entries.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/plugins/compsoc/profile/controllers/entries/config_form.yaml",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/ca/scc-css-csr.pem",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/themes/lucssv1/assets/less/theme/vendor.less",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/themes/lucssv1/assets/less/controls/navbar.less",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/themes/lucssv1/assets/less/pages/all.less",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/themes/lucssv1/partials/error/404.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/themes/lucssv1/assets/less/pages/error.less",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/themes/lucssv1/content/static-pages/about.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/themes/lucssv1/pages/home.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/themes/lucssv1/partials/footer.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/themes/lucssv1/pages/join.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/themes/lucssv1/pages/account.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/config/jwt.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/.env",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/themes/lucssv1/pages/forgot-password.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/themes/lucssv1/assets/vendor/flat-ui/less/flat-ui.less",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/plugins/radiantweb/proevents/components/eventcalendar/responsive.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/themes/lucssv1/partials/nav.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/themes/lucssv1/assets/less/theme/variables.less",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/themes/lucssv1/assets/less/controls/misc.less",
+		"/home/default/uni/lucss/web/themes/lucssv1-master/assets/less/theme/variables.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/layouts/footer.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/theme/vendor.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/pages/events.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/controls/misc.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/theme/fonts.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/pages/blog.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/pages/contact.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/pages/about.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/pages/home.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/pages/all.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/layouts/all.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/controls/navbar.less",
+		"/home/default/uni/lucss/web/themes/lucssv1-master/assets/less/pages/about.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/vendor/flat-ui/less/font.less",
+		"/home/default/uni/lucss/web/themes/lucssv2/theme.yaml",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/theme.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/theme/boot.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/partials/nav.htm",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/controls/all.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/partials/footer.htm",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/css/theme.css",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/theme/variables.less",
+		"/home/default/uni/lucss/web/themes/responsiv-flat/assets/less/theme/variables.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/pages/home.htm",
+		"/home/default/uni/lucss/web/Vagrantfile",
+		"/home/default/uni/lucss/web/themes/responsiv-flat/assets/less/theme/vendor.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/fonts/slkscr-webfont.eot",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/theme/mixins.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/theme/all.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/pages/post.htm",
+		"/home/default/uni/lucss/web/themes/lucssv1/pages/404.htm",
+		"/home/default/uni/lucss/web/themes/lucssv1/partials/error/404.htm",
+		"/home/default/uni/lucss/web/themes/lucssv1/content/static-pages/contact.htm",
+		"/home/default/uni/lucss/logo/CSS_Logo_355x165_x5.svg",
+		"/home/default/uni/lucss/web/modules/backend/assets/images/october-logo.svg",
+		"/home/default/uni/lucss/web/modules/backend/assets/images/october-logo-white.svg",
+		"/home/default/uni/lucss/web/modules/backend/assets/images/october-logo-transparent.svg",
+		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/components/eventlist/simple_list.htm",
+		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/components/eventlist/default.htm",
+		"/home/default/uni/lucss/web/plugins/rainlab/blog/vendor/autoload.php",
+		"/home/default/uni/lucss/web/themes/lucssv1/pages/posts.htm",
+		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/components/eventcalendar/responsive.htm",
+		"/home/default/uni/lucss/web/themes/lucssv1/partials/blog/sidebar.htm",
+		"/home/default/uni/lucss/web/plugins/rainlab/blog/components/categories/items.htm",
+		"/home/default/uni/lucss/web/themes/lucssv1/partials/sidebar.htm",
+		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/Plugin.php",
+		"/home/default/uni/lucss/web/themes/lucssv1/layouts/default.htm",
+		"/home/default/uni/lucss/web/themes/lucssv1/layouts/static.htm",
+		"/home/default/uni/lucss/web/plugins/rainlab/blog/components/categories/default.htm",
+		"/home/default/uni/lucss/web/themes/responsiv-flat/assets/less/theme/all.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/pages/events.htm",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/controls/buttons.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/node_modules/font-awesome/less/variables.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/node_modules/font-awesome/less/font-awesome.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/controls/input-groups.less",
+		"/home/default/uni/lucss/web/themes/lucssv1/pages/static.htm",
+		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/controllers/generated_dates/config_list.yaml",
+		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/controllers/generated_dates/config_form.yaml",
+		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/controllers/events/config_list.yaml",
+		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/controllers/events/config_form.yaml",
+		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/controllers/calendars/config_list.yaml",
+		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/controllers/calendars/config_form.yaml",
+		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/updates/seed_all_tables.php",
+		"/home/default/uni/lucss/web/themes/lucssv1/content/static-pages/calendar.htm",
+		"/home/default/uni/lucss/old2/head.php",
+		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/models/event/fields.yaml",
+		"/home/default/uni/lucss/old2/index.php",
+		"/home/default/uni/lucss/web/themes/responsiv-flat/pages/blog/blog.htm",
+		"/home/default/uni/lucss/web/themes/responsiv-flat/partials/footer.htm",
+		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/controls/footer.less"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/default/uni/lucss/web/html/",
+			"/home/default/uni/lucss/web/html/vendor/laravel",
+			"/home/default/uni/lucss/web/vendor/laravel",
+			"/home/default/uni/lucss/web/",
+			"/home/default/uni/lucss/web/plugins/",
+			"/home/default/uni/lucss/web/plugins/rainlab/user",
+			"/home/default/uni/lucss/web/themes/lucssv1/",
+			"/home/default/uni/lucss/web/themes/lucssv1/assets/less",
+			"/home/default/uni/lucss/web/themes/lucssv1/",
+			"/home/default/uni/lucss/web/themes/lucssv1/assets/less",
+			"/home/default/uni/lucss/web/themes/lucssv1",
+			"/home/default/uni/lucss/web/",
+			"/home/default/uni/lucss/web/themes/lucssv1",
+			"/home/default/uni/lucss/web",
+			"/home/escproxy/adjsys/communitycore/",
+			"/home/escproxy/adjsys/communitycore/vendor/pingpong",
+			"/home/escproxy/adjsys/communitycore/",
+			"/home/escproxy/documents/Work/CommunitySpeedWatchOnline/Application/shop",
+			"/home/escproxy/documents/Work/CommunitySpeedWatchOnline/Application",
+			"~/cswo/Application",
+			"/home/escproxy/Documents/Work/CommunitySpeedWatchOnline/Application",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/api",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/localsysconfig",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/headersfooters",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/admin",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/include",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/formgen",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/errors",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/css",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/common",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/classes",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/ajax",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/classes",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/localsysconfig",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/headersfooters",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/config",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/admin",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/utils",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/sitespecific",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/reports",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/our_docs",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/new_classes",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/modules",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/localsysconfig",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/include",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/headersfooters",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/formgen",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/errors",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/downloads",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/css",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/config",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/common",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/classes",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/ajax",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/admin",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/video",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/utils",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/training",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/sitespecific",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/reports",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/questionnaire",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/our_docs",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/modules",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/localsysconfig",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/language",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/interface",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/images",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/headersfooters",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/games",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/formgen",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/errors",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/downloads",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/css",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/config",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/common",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/classes",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/admin",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application/Wizards",
+			"/home/me/Documents/Work/CommunitySpeedWatchOnline/Application",
+			"/media/Storage/Cloud/Work/CommunitySpeedWatchOnline/Application/",
+			"/media/Storage/Cloud/Work/CommunitySpeedWatchOnline/Application/api",
+			"/media/Storage/Cloud/Work/CommunitySpeedWatchOnline/Application/",
+			"/media/Storage/Cloud/Work/CommunitySpeedWatchOnline/Applicaiton",
+			"/media/Storage/Cloud/Work/CommunitySpeedWatchOnline/csw-online/_Software/Application",
+			"/media/Storage/Cloud/Work/CommunitySpeedWatchOnline/Tablet/Workspace/CommunitySpeedWatch/src/com/csw/app",
+			"/media/Storage/Cloud/Work/CommunitySpeedWatchOnline/Tablet/Worksace/CommunitySpeedWatch/src/com/csw",
+			"/media/Storage/Cloud/Work/CommunitySpeedWatchOnline/Application/api/system/database",
+			"/media/Storage/Cloud/Work/CommunitySpeedWatchOnline/Application/api",
+			"/media/android/source/build",
+			"/media/android/source",
+			"/media/android/source/device",
+			"/media/android/source/build",
+			"/media/android/source/kernel",
+			"/media/android/source/",
+			"/media/android/source/device",
+			"/media/android/source/device/samsung/p4",
+			"/media/android/device/samsung/p4",
+			"/media/android/source/build",
+			"/media/android/source/",
+			"/media/android/source/build",
+			"/media/android/source/",
+			"/media/android/source/device/samsung/p4-common",
+			"/media/android/source/device/samsung/p4",
+			"/media/android/drivers/android_device_samsung_p4-cm-10.1/",
+			"/media/Storage/Cloud/Work/CommunitySpeedWatchOnline/Tablet/Android/aosp-4.0.4/.repo",
+			"/media/Storage/Cloud/Work/Community SpeedWatch Online/Tablet/Workspace/CommunitySpeedWatch/src",
+			"/media/Storage/Cloud/Work/Community SpeedWatch Online/Tablet/Workspace/CommunitySpeedWatch/res",
+			"/media/Storage/Cloud/Work/Community SpeedWatch Online/Tablet/Workspace/CommunitySpeedWatch/src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"session",
+			"$e->getMessage",
+			"class Exception",
+			"Exception(Lang::get",
+			"findComponentByName",
+			"renderPartial",
+			"onRegister",
+			"col-sm-10",
+			"disabled",
+			"modules",
+			"controls",
+			"social-btns",
+			"before",
+			"border-radius",
+			"navbar-toggle",
+			"font-family-sans-serif",
+			"callout",
+			"icon-font-path",
+			"15px",
+			"navbar-brand",
+			"navbar-nav",
+			"navbar-text",
+			"Inconsolata",
+			"@navbar-height",
+			"@navbar-height-base",
+			"@navbar-height-large",
+			"@navbar-height-base",
+			"height",
+			"navbar-text",
+			".navbar",
+			"@fa-font-path",
+			"fa-font-path",
+			".input-group-btn",
+			"pomegranate",
+			"radius",
+			"darken",
+			"btn-dan",
+			";\n",
+			".button-variant",
+			"@/plugins/radiantweb/proevents/models/event/columns.yam",
+			"@/plugins/radiantweb/proevents/models/event/fields.yaml",
+			".navbar-vertical-align",
+			".transition",
+			"box-sizing",
+			"navbar-nav",
+			"font-size",
+			"font-size-sm",
+			"assets/vendor",
+			"font-size-h1",
+			"font-size",
+			"font-family-demo",
+			"navbar-header",
+			"navbar-brand",
+			"gray-light",
+			"navbar-text",
+			"navbar-vertical-align",
+			"@navbar-height",
+			"navbar-",
+			"navbar",
+			"margin-left: -15px",
+			"20px 0",
+			"-15px",
+			"navbar-brand",
+			"-15px",
+			"navbar-brand",
+			"navbar-border-radius",
+			"navbar",
+			"border-radius",
+			"certificate",
+			"&am",
+			"border-radius",
+			"themes/res",
+			".border-radius",
+			"input-font-size-large",
+			"input-height-large",
+			"CALC",
+			"form-controls-corners-reset",
+			"../../",
+			"../vendor",
+			"../../vendor",
+			"../../vendor/flat-ui/less/controls/",
+			"headline",
+			"services",
+			"inverse",
+			"@inverse",
+			"border",
+			"navbar-toggle",
+			"navbar-to",
+			"container",
+			"-15",
+			"navbar",
+			"navbar ",
+			"navbar",
+			"width",
+			"url",
+			"navbar-inverse",
+			"vendor",
+			"url",
+			"/",
+			"path",
+			"navbar",
+			"navbar-inverse-bg",
+			"padding-base-vertical",
+			"navbar-default-bg",
+			"navbar",
+			"surname",
+			"SystemUI",
+			"adb shell ",
+			"su -c ",
+			"P2p.",
+			"create",
+			"app",
+			"defineRouteBindings",
+			"Rout",
+			"registerMiddleware",
+			"setLocalesConfigurations",
+			"registerModuleResourceNamespaces",
+			"registerServices",
+			"asd",
+			"503",
+			"CommunityServiceProvider",
+			"communities",
+			"CommunityServiceProvider",
+			"Barryvdh\\Debugbar\\ServiceProvider",
+			"CheckPlanEligibility",
+			"Lara",
+			"prefix",
+			"parseMiddleware"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"col-sm-9",
+			"../../vendor/flat-ui/less/modules",
+			"modules",
+			"node_modules",
+			"../../../",
+			"../node_modules",
+			"",
+			"node_modules",
+			"",
+			",	'purchase.$1'",
+			"cswo.local",
+			"",
+			"cswo.local",
+			"http",
+			"cswo.local",
+			"me",
+			"cswo.local",
+			"'$1' => '$2',",
+			"",
+			"'\n,	'",
+			"110",
+			"210",
+			"403",
+			"209",
+			"109",
+			"425",
+			"108",
+			"426",
+			"208",
+			"425",
+			"600",
+			"107",
+			"106",
+			"424",
+			"400",
+			"105",
+			"401",
+			"104",
+			"103",
+			"421",
+			"500",
+			"401",
+			"419",
+			"505",
+			"200",
+			"",
+			"DROP TABLE IF EXISTS",
+			"CREATE TABLE ",
+			"",
+			"cswo.local",
+			"",
+			"device_model",
+			"",
+			" ",
+			"",
+			"speed",
+			"SPEED",
+			"",
+			".$1:before { content: '$2'; }",
+			".$1:before { content: '\\e$2'; }",
+			"<div title=\"Code: 0xe$2\" class=\"the-icons span3\"><i class=\"$1\"></i> <span class=\"i-name\">$1</span><span class=\"i-code\">0xe$2</span></div>",
+			"icon-",
+			"-",
+			"",
+			"\n",
+			"",
+			"'$1',",
+			"me",
+			"CSW.log(\"$1\", ",
+			"",
+			"BlueBorder",
+			"BlueBackground",
+			"popcorn-official",
+			"<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!--\n	Alexander Jung,\n	Copyright (c) 2014 Community Speed Watch Online\n-->",
+			"(c) 2014 Community Speedwatch Online",
+			"\\\\"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "plugins/compsoc/user/components/RegisterForm.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4802,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1934,
+								1934
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 462.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "plugins/compsoc/user/components/LoginForm.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3855,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2025,
+								2025
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 504.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "plugins/compsoc/user/lang/en/lang.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1508,
+								1508
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/default/uni/lucss/web/html/modules/backend/behaviors/RelationController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45338,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								174,
+								174
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "plugins/compsoc/user/components/registerform/default.htm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4708,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1007,
+								1007
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 210.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "plugins/compsoc/user/classes/Mattermost.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 552,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								206,
+								206
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 81.0
+	},
+	"output.find_results":
+	{
+		"height": 112.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "lucss.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"componentpartial",
+				"modules/cms/classes/ComponentPartial.php"
+			],
+			[
+				"lucssv1/vari",
+				"themes/lucssv1/assets/less/theme/variables.less"
+			],
+			[
+				"misc",
+				"themes/lucssv1/assets/less/controls/misc.less"
+			],
+			[
+				"variables",
+				"themes/lucssv1/assets/less/theme/variables.less"
+			],
+			[
+				"lucssv1/variables",
+				"themes/lucssv1/assets/less/theme/variables.less"
+			],
+			[
+				"route.",
+				"vendor/laravel/framework/src/Illuminate/Routing/Route.php"
+			],
+			[
+				"route.php",
+				"vendor/laravel/framework/src/Illuminate/Routing/Route.php"
+			],
+			[
+				"router.php",
+				"vendor/laravel/framework/src/Illuminate/Routing/Router.php"
+			],
+			[
+				"authserviceprovider",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/AuthServiceProvider.php"
+			],
+			[
+				"serviceprovider",
+				"vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php"
+			],
+			[
+				"",
+				"Vagrantfile"
+			],
+			[
+				"kernel.php",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php"
+			],
+			[
+				"modules.php",
+				"vendor/pingpong/modules/ModulesServiceProvider.php"
+			],
+			[
+				"module",
+				"vendor/pingpong/modules/Facades/Module.php"
+			],
+			[
+				"module.php",
+				"vendor/pingpong/modules/Facades/Module.php"
+			],
+			[
+				"route",
+				"vendor/laravel/framework/src/Illuminate/Routing/Route.php"
+			],
+			[
+				"provider",
+				"vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php"
+			],
+			[
+				"stylistfacade",
+				"vendor/floatingpoint/stylist/src/Stylist/Facades/ThemeFacade.php"
+			],
+			[
+				"facade",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php"
+			],
+			[
+				"themehtml",
+				"vendor/floatingpoint/stylist/src/Stylist/Html/ThemeHtmlBuilder.php"
+			],
+			[
+				"home.blade.php",
+				"Themes/Flatly/views/home.blade.php"
+			],
+			[
+				"viewfinderinterface",
+				"vendor/laravel/framework/src/Illuminate/View/ViewFinderInterface.php"
+			],
+			[
+				"factory",
+				"vendor/laravel/framework/src/Illuminate/View/Factory.php"
+			],
+			[
+				"test",
+				"test.php"
+			],
+			[
+				"config",
+				"api/system/core/config.php"
+			],
+			[
+				"vag",
+				"Vagrantfile"
+			],
+			[
+				"sys-con",
+				"localsysconfig/SYS-Config.php"
+			],
+			[
+				"form-check",
+				"FORM-Check-Login.php"
+			],
+			[
+				"form-login",
+				"FORM-Login.php"
+			],
+			[
+				"index.",
+				"index.php"
+			],
+			[
+				"csw.",
+				"shop/csw.sql"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"test.",
+				"test.php"
+			],
+			[
+				"test.php",
+				"test.php"
+			],
+			[
+				"sys-c",
+				"localsysconfig/SYS-Config.php"
+			],
+			[
+				"forms-update-sid-pol",
+				"FORMS-Update-SID-POL.php"
+			],
+			[
+				"forms-register",
+				"FORMS-Register-SID-POL.php"
+			],
+			[
+				"forms-grou",
+				"FORMS-Groups.php"
+			],
+			[
+				"device_",
+				"api/models/device_model.php"
+			],
+			[
+				"forms-register-sid-pol",
+				"FORMS-Register-SID-POL.php"
+			],
+			[
+				"overv",
+				"admin/OVERVIEWS.php"
+			],
+			[
+				"owner_m",
+				"api/models/owner_model.php"
+			],
+			[
+				"station_s",
+				"admin/Station_Status.php"
+			],
+			[
+				"device_model",
+				"api/models/device_model.php"
+			],
+			[
+				"system-header",
+				"localsysconfig/system-header.php"
+			],
+			[
+				"forms-police",
+				"FORMS-Police.php"
+			],
+			[
+				"form-sid-admi",
+				"FORMS-SID-Admin-POL.php"
+			],
+			[
+				"form-sid-",
+				"FORMS-SID-Admin.php"
+			],
+			[
+				"database",
+				"localsysconfig/database_config.php"
+			],
+			[
+				"stati.php",
+				"api/system/config/stati.php"
+			],
+			[
+				"system",
+				"localsysconfig/system-header.php"
+			],
+			[
+				"forms-edit-my",
+				"FORMS-Edit-MyGroup-POL.php"
+			],
+			[
+				"login-asp",
+				"admin/LOGIN-as-Police.php"
+			],
+			[
+				"header-police",
+				"headersfooters/header-police.php"
+			],
+			[
+				"forms-sid-",
+				"FORMS-SID-Admin-POL.php"
+			],
+			[
+				"database_",
+				"classes/database_class.php"
+			],
+			[
+				"forms-calendar",
+				"FORMS-Calendar-Group.php"
+			],
+			[
+				"forms-perm",
+				"FORMS-Permission-SID.php"
+			],
+			[
+				"check",
+				"FORM-Check-Login.php"
+			],
+			[
+				"seller-",
+				"SELLR-SELLER-Admin.php"
+			],
+			[
+				"seller-s",
+				"SELLR-Edit-MyDetails.php"
+			],
+			[
+				"show-email",
+				"FORMS-Show-Email-Attach.php"
+			],
+			[
+				"show-email-detail",
+				"FORMS-Show-Email-Detail.php"
+			],
+			[
+				"navbar",
+				"external/blktrace/verify_blkparse.c"
+			],
+			[
+				"/hardware.h",
+				"hardware/libhardware/include/hardware/hardware.h"
+			],
+			[
+				"hardware.h",
+				"hardware/libhardware/include/hardware/hardware.h"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Server/phyr/phyr.sublime-workspace"
+			],
+			[
+				"phyr",
+				"~/Server/phyr/phyr.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 296.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

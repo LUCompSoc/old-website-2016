@@ -1,0 +1,52 @@
+[viewBag]
+[staticMenu]
+code = "footer-menu"
+==
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h5 class="footer-title">Our roots</h5>
+            <a target="_blank" class="university-logo" href="https://lancs.ac.uk"></a>
+            <p>You'll find us at the heart of the University (and all over the internet).</p> 
+        </div>
+
+        <div class="col-sm-4">
+            <div class="footer-banner">
+                <h5 class="footer-title">Online</h5> 
+                <ul class="social-btns">
+                    <li><a target="_blank" href="https://fb.com/csslu"><i class="fa fa-facebook"></i>Facebook</a> (<a target="_blank" href="https://fb.com/groups/lucss">Group</a>)</li>
+                    <li><a target="_blank" href="https://twitter.com/lucompsoc"><i class="fa fa-twitter"></i>Twitter</a></li>
+                    <li><a target="_blank" href="https://plus.google.com/communities/112252776931537020795"><i class="fa fa-google-plus-official"></i>Google Plus</a></li>
+                    <li><a target="_blank" href="https://github.com/lucompsoc"><i class="fa fa-github"></i>GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="footer-banner">
+                <h5 class="footer-title">IRL</h5>
+                <address>
+                    <a target="_blank" href="https://goo.gl/maps/3yTNwFh7Li52">Computer Science Society</a><i class="external-link fa fa-external-link"></i><br />
+                    Faculty of Computing and Communications,<br />
+                    Old Engieering Building,<br />
+                    Fylde Avenue,<br />
+                    Lancaster,<br />
+                    LA1 4YR,<br />
+                    United Kingdom
+                </address>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <nav class="pull-left">
+        <ul>
+            {% for item in staticMenu.menuItems %}
+                <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endfor %}
+        </ul>
+        <div class="policies pull-right">
+            Be sure to take a look to our <a href="/policies/cookies">Cookie Policy</a>.
+        </div>
+    </nav>
+</div>

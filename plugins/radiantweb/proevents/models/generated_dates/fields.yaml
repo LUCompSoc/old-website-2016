@@ -1,0 +1,59 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+
+  title:
+    label: radiantweb.proevents::lang.backend.events.fields.title
+
+  content:
+    label: radiantweb.proevents::lang.backend.events.fields.content
+    type: richeditor
+    size: huge
+
+tabs:
+  fields:
+
+    excerpt:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.preview
+      label: radiantweb.proevents::lang.backend.events.fields.excerpt
+      type: textarea
+      size: small
+
+secondaryTabs:
+  fields:
+
+    date:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.date
+      label: radiantweb.proevents::lang.backend.events.fields.date
+      type: datepicker
+      mode: date
+
+    sttime:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.date
+      label: radiantweb.proevents::lang.backend.events.fields.sttime
+      type: time
+
+
+    entime:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.date
+      label: radiantweb.proevents::lang.backend.events.fields.entime
+      type: time
+
+    event_qty:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.date
+      label: radiantweb.proevents::lang.backend.events.fields.qty
+
+    event_price:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.date
+      label: radiantweb.proevents::lang.backend.events.fields.price
+
+    status:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.date
+      label: radiantweb.proevents::lang.backend.events.fields.status
+      type: dropdown
+      options:
+        null: radiantweb.proevents::lang.backend.events.fields.statusoptions.none
+        available: radiantweb.proevents::lang.backend.events.fields.statusoptions.available
+        booked: radiantweb.proevents::lang.backend.events.fields.statusoptions.booked

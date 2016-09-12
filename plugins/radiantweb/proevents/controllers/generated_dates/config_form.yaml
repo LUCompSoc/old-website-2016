@@ -1,0 +1,18 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+name: Generated Dates
+form: ~/plugins/radiantweb/proevents/models/generated_dates/fields.yaml
+model-class: Radiantweb\Proevents\Models\GeneratedDate
+default-redirect: radiantweb/proevents/generated_dates
+
+create:
+    title: radiantweb.proevents::lang.backend.generated.toolbar.create
+    redirect: radiantweb/proevents/generated_dates/update/:id
+    redirectClose: radiantweb/proevents/generated_dates
+
+update:
+    title: radiantweb.proevents::lang.backend.generated.toolbar.edit
+    redirect: radiantweb/proevents/generated_dates
+    redirectClose: radiantweb/proevents/generated_dates

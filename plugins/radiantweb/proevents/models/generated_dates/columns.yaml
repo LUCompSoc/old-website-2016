@@ -1,0 +1,28 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+  title:
+    label: radiantweb.proevents::lang.backend.generated.columns.title
+    searchable: true
+
+  date:
+    label: radiantweb.proevents::lang.backend.generated.columns.date
+    searchable: true
+
+  sttime:
+    label: radiantweb.proevents::lang.backend.generated.columns.sttime
+
+  entime:
+    label: radiantweb.proevents::lang.backend.generated.columns.entime
+
+  event_qty:
+    label: radiantweb.proevents::lang.backend.generated.columns.qty
+
+  status:
+    type: partial
+    path: ~/plugins/radiantweb/proevents/models/generated_dates/_status_column.htm
+    label: radiantweb.proevents::lang.backend.generated.columns.status
+    searchable: true

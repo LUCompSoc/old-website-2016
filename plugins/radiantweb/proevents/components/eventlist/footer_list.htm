@@ -1,0 +1,20 @@
+{% for event in events %}
+	<div class="footercal">
+		<h4><a href="{{ eventpage|page({'event_slug': event.title|replace({' ':'-'})|lower,'event_id': event.id }) }}/" rel="pe_tooltip"><i class="icon-calendar"></i> &nbsp;{{ event.date|date(PE_DATE_SPOKEN) }}</a></h4>
+		<p>
+			{{ event.title }} |
+			{% if event.grouped > 0 %}
+				{{ __SELF__.getFromToDates(event.grouped_id,event.event_id)|raw }}
+			{% else %}
+				{% if event.allday > 0 %}
+					{{'All Day'|_}}
+				{% else %}
+					{{ event.sttime|date(PE_DATE_TIME) }}  - {{ event.entime|date(PE_DATE_TIME) }}
+				{% endif %}
+			{% endif %}
+		</p>
+	</div>
+{% endfor %}
+{% if pagination > 0 %}
+	{{events.render|raw}}
+{% endif %}

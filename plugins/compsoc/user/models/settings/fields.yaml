@@ -1,0 +1,18 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+    content:
+        type: partial
+        path: ~/plugins/compsoc/user/models/settings/instructions.htm
+
+    jwt_private_key:
+        span: left
+        label: compsoc.user::lang.settings.fields.jwt_private_key
+        commentAbove: compsoc.user::lang.settings.fields.jwt_private_key_description
+
+    jwt_auth_url:
+        span: right
+        label: compsoc.user::lang.settings.fields.jwt_auth_url
+        commentAbove: compsoc.user::lang.settings.fields.jwt_auth_url_description

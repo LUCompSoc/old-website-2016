@@ -1,0 +1,59 @@
+1.0.1:
+    - Initialize plugin
+    - create_events_table.php
+    - create_calendars_table.php
+    - seed_all_tables.php
+1.0.6:
+    - save and close route fix
+1.0.8:
+    - update generated dates table
+    - add_user_generateddates.php
+1.0.9:
+    - event delete missing icon fixed
+1.1.0:
+    - permissions namespacing
+    - generated dates now delete when parent event is deleted
+    - new duplicate events added to event list backend
+    - new delete events added to event list  backend
+1.1.1:
+    - refactoring
+    - default author view bug fix
+1.1.2:
+    - added event author id update/save to afterSave
+1.2.0:
+    - correction to MultiDateHelper logic
+1.2.1:
+    - smallcal update
+1.3.0:
+    - Static Pages/Menus Integration
+    - Calendars & Event Lists can now dynamically be filtered by calendar
+1.3.1:
+    - Color Picker Rename
+1.3.2:
+    - order_by fix
+1.3.3:
+    - check for user auth fix
+1.3.4:
+    - added permissions tab to settings
+2.0.0:
+    - NOT COMPATIBLE WITH BETA VERSIONS
+2.0.1:
+    - multidate create event bug fix
+2.0.2:
+    - pagination bug fix
+2.1.0:
+    - multidate save bugfix
+2.2.0:
+    - multidate save revert
+2.3.0:
+    - rework non recuring dates
+2.4.1:
+    - add event location info
+    - add_location_info.php
+2.5.0:
+    - all views and backend models and forms have been translation wrapped
+    - translation en example file added
+2.5.1:
+    - correct missing twig tags in event list views
+2.5.2:
+    - add multi-delete option to list view

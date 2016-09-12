@@ -1,0 +1,12 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+    name:
+        label: radiantweb.proevents::lang.backend.calendars.columns.name
+    color:
+        type: partial
+        path: ~/plugins/radiantweb/proevents/models/calendar/_color_column.htm
+        label: radiantweb.proevents::lang.backend.calendars.columns.color

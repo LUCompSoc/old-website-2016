@@ -1,0 +1,7 @@
+static-pages:
+    about:
+        about-executive: {  }
+    contact: {  }
+    policies:
+        policies-cookies: {  }
+    calendar: {  }

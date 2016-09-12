@@ -1,0 +1,32 @@
+title = "Post"
+url = "/post/:slug?"
+layout = "default"
+is_hidden = 0
+
+[blogPost]
+[blogCategories]
+slug = "{{ :slug }}"
+categoryPage = "posts"
+==
+{% if post %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="blog-post">
+                <h4 class="headline"><span>{{ post.title }}</span></h4>
+
+                {% component 'blogPost' %}
+            </div>
+        </div>
+        <div class="col-md-4">
+
+            {% partial 'blog/sidebar' %}
+
+        </div>
+    </div>
+</div>
+{% else %}
+
+    {% partial 'error/404' %}
+
+{% endif %}

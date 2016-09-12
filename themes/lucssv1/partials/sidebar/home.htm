@@ -1,0 +1,14 @@
+[viewBag]
+
+[proEventList eventList]
+style = "simple_list"
+calendar = 2
+num = 5
+==
+<!-- Categories -->
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <a href="{{ 'events'|app }}">Upcoming Events</a>
+    </div>
+    {% component 'eventList' %}
+</div>

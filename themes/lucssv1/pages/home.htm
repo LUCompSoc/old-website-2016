@@ -1,0 +1,37 @@
+title = "Lancaster University Computer Science Society"
+url = "/"
+layout = "default"
+is_hidden = 0
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 5
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "posts"
+postPage = "post"
+==
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+
+            <section class="home-intro">
+                <h4 class="headline"><span>Hello, World!</span></h4>
+                <p><strong>Lancaster University Computer Science Society</strong> (LUCSS or LUCompSoc) is a group of like-minded individuals all of whom share a common interest in the realm of computing. We hold hackathons, opportunities to network with industry, invite academics and professionals to give talks, provide either course-specific revision or general interest workshops, and more!</p>
+                <p>If you're interested in participating, be sure to join us at our weekly meetup every Thursday at 6pm!</p>
+            </section>
+
+            <section class="recent-posts">
+                <h4 class="headline"><span>Recent posts</span></h4>
+
+                {% component 'blogPosts' %}
+            </section>
+
+        </div>
+        <div class="col-md-4">
+
+            {% partial 'sidebar/home' %}
+
+        </div>
+    </div>
+</div>

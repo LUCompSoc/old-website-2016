@@ -1,0 +1,18 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+name: Calendar
+form: ~/plugins/radiantweb/proevents/models/calendar/fields.yaml
+model-class: Radiantweb\Proevents\Models\Calendar
+default-redirect: radiantweb/proevents/calendars
+
+create:
+    title: radiantweb.proevents::lang.backend.calendars.toolbar.create
+    redirect: radiantweb/proevents/calendars/update/:id
+    redirectClose: radiantweb/proevents/calendars
+
+update:
+    title: radiantweb.proevents::lang.backend.calendars.toolbar.edit
+    redirect: radiantweb/proevents/calendars
+    redirectClose: radiantweb/proevents/calendars

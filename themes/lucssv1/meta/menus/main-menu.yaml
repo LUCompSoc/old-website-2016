@@ -1,0 +1,41 @@
+name: 'Main Menu'
+items:
+    -
+        title: Posts
+        nesting: ''
+        type: cms-page
+        url: ''
+        code: ''
+        reference: posts
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: About
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: about
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Join
+        nesting: ''
+        type: url
+        url: /join
+        code: ''
+        reference: ''
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: btn-join
+            isExternal: '0'

@@ -1,0 +1,146 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+tabs:
+  fields:
+
+    title:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.content
+      label: radiantweb.proevents::lang.backend.events.fields.title
+
+    content:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.content
+      label: radiantweb.proevents::lang.backend.events.fields.content
+      type: richeditor
+      size: huge
+
+    excerpt:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.content
+      label: radiantweb.proevents::lang.backend.events.fields.excerpt
+      type: textarea
+      size: small
+
+    location_name:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.additional
+      label: radiantweb.proevents::lang.backend.events.fields.locname
+      placeholder: radiantweb.proevents::lang.backend.events.fields.placeholders.none
+      span: left
+
+    location_address:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.additional
+      label: radiantweb.proevents::lang.backend.events.fields.locaddress
+      placeholder: radiantweb.proevents::lang.backend.events.fields.placeholders.none
+      span: right
+
+    contact_email:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.additional
+      label: radiantweb.proevents::lang.backend.events.fields.email
+      placeholder: radiantweb.proevents::lang.backend.events.fields.placeholders.none
+      span: left
+
+secondaryTabs:
+  fields:
+
+    multidate:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.date
+      label: radiantweb.proevents::lang.backend.events.fields.dates
+      type: multidate
+      options:
+        mode: datetimetime
+
+    recur:
+      label: radiantweb.proevents::lang.backend.events.fields.recur
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.date
+      type: dropdown
+      options:
+        none: radiantweb.proevents::lang.backend.events.fields.recuroptions.none
+        daily: radiantweb.proevents::lang.backend.events.fields.recuroptions.daily
+        weekly: radiantweb.proevents::lang.backend.events.fields.recuroptions.weekly
+        every_other_week: radiantweb.proevents::lang.backend.events.fields.recuroptions.everyother
+        monthly: radiantweb.proevents::lang.backend.events.fields.recuroptions.monthly
+        yearly: radiantweb.proevents::lang.backend.events.fields.recuroptions.yearly
+
+    thru:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.date
+      label: radiantweb.proevents::lang.backend.events.fields.thru
+      type: datepicker
+      mode: date
+
+
+    calendar:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.date
+      label: radiantweb.proevents::lang.backend.events.fields.calendar
+      type: relation
+      placeholder: radiantweb.proevents::lang.backend.events.fields.placeholders.chose
+
+
+    allday:
+      label: radiantweb.proevents::lang.backend.events.fields.allday
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.date
+      type: checkbox
+
+    grouped:
+      label: radiantweb.proevents::lang.backend.events.fields.grouped
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.date
+      type: checkbox
+
+    # visibility:
+    #   label: Visibility
+    #   tab: Publish
+    #   type: balloon-selector
+    #   options:
+    #     - Public
+    #     - Sticky
+    #     - Private
+
+    # status:
+    #   label: Status
+    #   tab: Publish
+    #   type: balloon-selector
+    #   options:
+    #     - Draft
+    #     - Review
+    #     - Published
+
+    featured_images:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.date
+      label: radiantweb.proevents::lang.backend.events.fields.images
+      type: fileupload
+      options:
+        mode: image
+        image-width: 127
+        image-height: 127
+
+
+    excluded:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.exclude
+      label: radiantweb.proevents::lang.backend.events.fields.exclude
+      type: multidate
+      mode: date
+
+    event_qty:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.booking
+      label: radiantweb.proevents::lang.backend.events.fields.qty
+      default: 0
+
+    event_price:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.booking
+      label: radiantweb.proevents::lang.backend.events.fields.price
+
+    status:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.booking
+      label: radiantweb.proevents::lang.backend.events.fields.status
+      type: dropdown
+      options:
+        null: radiantweb.proevents::lang.backend.events.fields.statusoptions.none
+        available: radiantweb.proevents::lang.backend.events.fields.statusoptions.available
+        booked: radiantweb.proevents::lang.backend.events.fields.statusoptions.booked
+
+    update_generated_booking_info:
+      tab: radiantweb.proevents::lang.backend.events.fields.tabs.booking
+      label: radiantweb.proevents::lang.backend.events.fields.update
+      type: dropdown
+      options:
+        null: radiantweb.proevents::lang.backend.events.fields.updateoptions.passive
+        update: radiantweb.proevents::lang.backend.events.fields.updateoptions.update

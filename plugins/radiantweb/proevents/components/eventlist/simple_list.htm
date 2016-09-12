@@ -1,0 +1,17 @@
+{% for event in events %}
+<a href="{{ eventpage|page({'event_slug': event.title|replace({' ':'-'})|lower,'event_id': event.id }) }}/" class="list-group-item">
+    <div class="row">
+        <div class="col-xs-2 list-calendar">
+            <div class="month">{{ event.date|date("M") }}</div>
+            <div class="day">{{ event.date|date("d") }}</div>
+        </div>
+        <div class="col-xs-10">
+            <h6 class="list-group-item-heading">{{ event.title }}</h6>
+            <p class="list-group-item-text">{{ event.excerpt|raw }}</p>
+         </div>
+    </div>
+</a>
+{% endfor %}
+{% if pagination > 0 %}
+    {{events.render|raw}}
+{% endif %}

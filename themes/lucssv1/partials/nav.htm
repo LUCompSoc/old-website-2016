@@ -1,0 +1,40 @@
+[staticMenu mainMenu]
+code = "main-menu"
+
+[staticMenu userMenu]
+code = "user-menu"
+
+[viewBag]
+[session]
+==
+<nav id="layout-nav" class="navbar" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="{{ 'home'|page }}"></a>
+            <div class="navbar-text"><div class="navbar-align"><a href="{{ 'home'|page }}">Lancaster University<br />Computer Science Society</a></div></div>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <span class="sr-only">Toggle navigation</span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-main-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                {% for item in mainMenu.menuItems %}
+                    <li><a {{ item.code }} href="{{ item.url }}">{{ item.title }}</a></li>
+                {% endfor %}
+
+                {% if user %}
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ user.name }} <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            {% for item in userMenu.menuItems %}
+                                <li><a {{ item.code }} href="{{ item.url }}">{{ item.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                {% else %}
+                    <li><a href="{{ 'login'|app }}">Login</a></li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</nav>
