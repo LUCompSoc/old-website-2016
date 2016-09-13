@@ -12,14 +12,14 @@ class Mattermost
 		.	'-team_name="compsoc" '
 		.	'-username="' . $username . '" '
 		.	'-email="' . $email . '" '
-		.	'-password="' . $password . '"'
+		.	'-password="' . escapeshellarg($password) . '"'
 		);
 
 		$process->run();
 
 		// executes after the command finishes
 		if (!$process->isSuccessful()) {
-		    throw new ProcessFailedException($process);
+		    throw new ProcessFailedException('Mattermost account could not be created!');
 		}
 
 		return $process->getOutput();
