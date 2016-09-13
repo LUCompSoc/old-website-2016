@@ -169,6 +169,7 @@ class RegisterForm extends ComponentBase
                  * Register user on Mattermost
                  */
                 if(isset($post['auto_irc']) && (int)$post['auto_irc'] == 1) {
+                    // TODO: Save the mattermost user ID (which is a hash) rather than relying on username/email combo
                     Mattermost::create_user($payload->username, $payload->mail, $post['irc_password']);
                 }
 
