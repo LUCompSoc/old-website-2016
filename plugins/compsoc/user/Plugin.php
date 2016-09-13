@@ -105,6 +105,10 @@ class Plugin extends PluginBase
                     'label' => 'compsoc.user::lang.plugin.profile.fields.title',
                     'tab' => 'compsoc.user::lang.plugin.profile.tab_label'
                 ],
+                'position' => [
+                    'label' => 'compsoc.user::lang.plugin.profile.fields.position',
+                    'tab' => 'compsoc.user::lang.plugin.profile.tab_label'
+                ],
                 'subscribed_newsletters' => [
                     'label' => 'compsoc.user::lang.plugin.profile.fields.subscribed_newsletters',
                     'tab' => 'compsoc.user::lang.plugin.profile.tab_label'

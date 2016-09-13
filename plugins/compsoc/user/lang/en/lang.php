@@ -13,6 +13,7 @@ return [
                 'title' => 'Title',
                 'irc_id' => 'IRC ID',
                 'subscribed_newsletters' => 'Subscribed newsletter IDs'
+                'position' => 'Position'
             ]
         ]
     ],
