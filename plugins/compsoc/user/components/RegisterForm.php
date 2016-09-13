@@ -54,8 +54,6 @@ class RegisterForm extends ComponentBase
             {
                 // TODO:
                 // Implement pay wall to help with funding??
-
-                throw new ApplicationException(Lang::get('compsoc.user::lang.register.error.bad_request'));
             }
             else if (count(array_intersect(['displayName', 'username', 'mail'], array_keys((array)$payload))) < 3)
             {
