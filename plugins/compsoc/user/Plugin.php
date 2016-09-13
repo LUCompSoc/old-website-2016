@@ -97,10 +97,6 @@ class Plugin extends PluginBase
                     'label' => 'compsoc.user::lang.plugin.profile.fields.union_id',
                     'tab' => 'compsoc.user::lang.plugin.profile.tab_label'
                 ],
-                'irc_id' => [
-                    'label' => 'compsoc.user::lang.plugin.profile.fields.irc_id',
-                    'tab' => 'compsoc.user::lang.plugin.profile.tab_label'
-                ],
                 'title' => [
                     'label' => 'compsoc.user::lang.plugin.profile.fields.title',
                     'tab' => 'compsoc.user::lang.plugin.profile.tab_label'
