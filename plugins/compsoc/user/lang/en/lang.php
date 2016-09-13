@@ -12,7 +12,7 @@ return [
                 'union_id' => 'LUSU Number',
                 'title' => 'Title',
                 'irc_id' => 'IRC ID',
-                'subscribed_newsletters' => 'Subscribed newsletter IDs'
+                'subscribed_newsletters' => 'Subscribed newsletter IDs',
                 'position' => 'Position'
             ]
         ]
