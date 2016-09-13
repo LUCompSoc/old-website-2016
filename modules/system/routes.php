@@ -8,7 +8,4 @@ App::before(function ($request) {
      * Combine JavaScript and StyleSheet assets
      */
     Route::any('combine/{file}', 'System\Classes\Controller@combine');
-
-    // Deploy
-    Route::get('/deploy', 'System\Controllers\Server@deploy');
 });
