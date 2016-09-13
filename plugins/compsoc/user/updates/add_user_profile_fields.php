@@ -13,6 +13,7 @@ class AddUserProfileFields extends Migration
             $table->integer('union_id')->nullable();
             $table->integer('irc_id')->nullable();
             $table->string('title')->nullable();
+            $table->string('position')->nullable();
             $table->string('subscribed_newsletters')->default('[]');
         });
     }
@@ -20,7 +21,7 @@ class AddUserProfileFields extends Migration
     public function down()
     {
         Schema::table('users', function(Blueprint $table) {
-            $table->dropColumn(['university_id', 'union_id', 'irc_id', 'title', 'subscribed_newsletters']);
+            $table->dropColumn(['university_id', 'union_id', 'irc_id', 'title', 'subscribed_newsletters', 'position']);
         });
     }
 }
