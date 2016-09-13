@@ -11,7 +11,7 @@ class AddUserProfileFields extends Migration
         Schema::table('users', function(Blueprint $table) {
             $table->integer('university_id')->nullable();
             $table->integer('union_id')->nullable();
-            $table->integer('irc_id')->nullable();
+            $table->string('irc_id')->nullable();
             $table->string('title')->nullable();
             $table->string('position')->nullable();
             $table->string('subscribed_newsletters')->default('[]');

@@ -1,5 +1,6 @@
 <?php namespace Compsoc\User\Components;
 
+use DB;
 use Auth;
 use Mail;
 use Lang;
@@ -124,6 +125,17 @@ class RegisterForm extends ComponentBase
             // Not registered and data ok, cool!
             else
             {
+                $irc_id = null;
+
+                /*
+                 * Register user on Mattermost
+                 */
+                if(isset($post['auto_irc']) && (int)$post['auto_irc'] == 1) {
+                    Mattermost::create_user($payload->username, $payload->mail, $post['irc_password']);
+                    $result = DB::connection('mattermost')->select('select Id from Users where Email = :email limit 1', ['email' => $payload->mail]);
+                    $irc_id = $result[0]->Id;
+                }
+
                 /*
                  * Register user on this system
                  */
@@ -139,6 +151,7 @@ class RegisterForm extends ComponentBase
                     'surname' => implode(' ', array_slice($names, 1)),
                     'university_id' => (int)$post['library_card_number'],
                     'union_id' => (int)$post['lusu_number'],
+                    'irc_id' => $irc_id,
                     // TODO: Check if posted position is real position -- maybe via dynamic list
                     'position' => $post['position'],
                     'title' => isset($post['title']) ? strip_tags(trim($post['title'])) : '',
@@ -161,14 +174,6 @@ class RegisterForm extends ComponentBase
                     Flash::success(Lang::get('rainlab.user::lang.account.activation_email_sent'));
                     $this->sendActivationEmail($user);
                     $return['.form-horizontal'] = '';
-                }
-
-                /*
-                 * Register user on Mattermost
-                 */
-                if(isset($post['auto_irc']) && (int)$post['auto_irc'] == 1) {
-                    // TODO: Save the mattermost user ID (which is a hash) rather than relying on username/email combo
-                    Mattermost::create_user($payload->username, $payload->mail, $post['irc_password']);
                 }
 
                 /*
