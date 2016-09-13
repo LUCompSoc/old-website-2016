@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"strip",
+				"strip_tags"
+			],
+			[
+				"dis",
+				"display_name"
+			],
+			[
+				"disp",
+				"displayName"
+			],
+			[
 				"var",
 				"var_dump"
 			],
@@ -56,10 +68,6 @@
 				"latest_firmware"
 			],
 			[
-				"dis",
-				"district_ids"
-			],
-			[
 				"json",
 				"json_encode"
 			],
@@ -84,50 +92,75 @@
 	"buffers":
 	[
 		{
-			"file": "plugins/compsoc/user/components/RegisterForm.php",
+			"file": "themes/lucssv1/pages/profile.htm",
 			"settings":
 			{
-				"buffer_size": 4802,
+				"buffer_size": 240,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "plugins/compsoc/user/components/LoginForm.php",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 3855,
+				"buffer_size": 1989,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "plugins/compsoc/user/lang/en/lang.php",
+			"file": "modules/system/providers.php",
 			"settings":
 			{
-				"buffer_size": 2198,
+				"buffer_size": 1776,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/default/uni/lucss/web/html/modules/backend/behaviors/RelationController.php",
+			"file": "composer.json",
 			"settings":
 			{
-				"buffer_size": 45338,
+				"buffer_size": 1833,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "plugins/compsoc/user/components/registerform/default.htm",
+			"file": "themes/lucssv1/theme.yaml",
 			"settings":
 			{
-				"buffer_size": 4708,
+				"buffer_size": 115,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "plugins/compsoc/user/classes/Mattermost.php",
+			"file": ".env.example",
 			"settings":
 			{
-				"buffer_size": 552,
+				"buffer_size": 1287,
+				"line_ending": "Unix",
+				"name": "APP_ENV=local"
+			}
+		},
+		{
+			"file": "/home/default/Documents/Academia/University of Lancaster/LUCSS/web/Vagrantfile",
+			"settings":
+			{
+				"buffer_size": 431,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "plugins/compsoc/user/components/profile/default.htm",
+			"settings":
+			{
+				"buffer_size": 836,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "plugins/compsoc/user/components/Profile.php",
+			"settings":
+			{
+				"buffer_size": 1000,
 				"line_ending": "Unix"
 			}
 		}
@@ -165,54 +198,102 @@
 	"expanded_folders":
 	[
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/modules",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/modules/backend/lang",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/modules/backend/lang/en",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/modules/system",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/assets",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/assets/js",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/classes",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/components",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/components/registerform",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/components/profile",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/facades",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/lang",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/lang/en",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/partials",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/radiantweb",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/models",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/martin/gitreposmanager/lang",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/martin/gitreposmanager/lang/en",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/radiantweb/proevents",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/radiantweb/proevents/components",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/radiantweb/proevents/components/event",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/blog",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/blog/components",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/radiantweb/proevents/lang",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/radiantweb/proevents/lang/en",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/blog/lang",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/blog/lang/en",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/forum/lang/en",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/pages/classes",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/pages/classes/menuitem",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/pages/lang/en",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/user",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/user/classes",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/user/components",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/user/components/account",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/user/lang/en",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/user/views",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/user/views/mail",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/layouts",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/pages",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/vendor/laravel",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/vendor/laravel/framework",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/vendor/laravel/framework/src",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/vendor/laravel/framework/src/Illuminate",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/vendor/october/rain"
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/assets/less",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/assets/less/pages",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/assets/vendor/flat-ui",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/assets/vendor/flat-ui/less",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/partials/sidebar"
 	],
 	"file_history":
 	[
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/pages/join.htm",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/pages/register.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/deploy.sh",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/Vagrantfile",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/.gitignore",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/layouts/default.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/user/classes/AuthManager.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/assets/less/pages/all.less",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/components/RegisterForm.php",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/assets/js/register.js",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/lang/en/lang.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/vendor/october/rain/src/Auth/Manager.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/components/Profile.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/assets/less/controls/navbar.less",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/partials/sidebar/profile.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/partials/nav.htm",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/pages/login.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/assets/less/controls/dropdowns.less",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/user/facades/Auth.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/config/session.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/pages/home.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/partials/sidebar/home.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/components/registerform/default.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/lang/en/lang.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/classes/Mattermost.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/components/LoginForm.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/classes/JWT.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/assets/less/theme/vendor.less",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/partials/nav-user.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/assets/less/theme/variables.less",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/assets/less/controls/all.less",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/pages/classes/MenuItemReference.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/pages/profile.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/pages/register.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/assets/less/controls/misc.less",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/config/app.php",
+		"/home/default/uni/lucss/web/html/modules/backend/behaviors/RelationController.php",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/.env",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/user/components/Account.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/assets/js/register.js",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/Vagrantfile",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/Plugin.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/user/lang/en/lang.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/facades/Mattermost.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/models/Settings.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/rainlab/googleanalytics/vendor/google/apiclient-services/Google/Service/AnalyticsReporting.php",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/components/loginform/default.htm",
+		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/pages/join.htm",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/assets/javascript/app.js",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/assets/less/controls/forms.less",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/assets/less/controls/all.less",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web2/content/5-join/lifetime-membership/join-form.txt",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web2/content/5-join/page-sidebar.txt",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/components/LoginForm.php",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/config/database.php",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/partials/flash-messages.htm",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/components/registerForm/flash-messages.htm",
 		"/home/default/uni/lucss/web/html/modules/cms/classes/Controller.php",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/modules/cms/classes/ComponentPartial.php",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/components/registerform/default.htm",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/layouts/default.htm",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/layouts/private.htm",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/themes/lucssv1/layouts/static.htm",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/user/models/Mattermost.php",
@@ -228,7 +309,6 @@
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/profile/Plugin.php",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/profile/updates/create_profiles_table.php",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/plugins/compsoc/profile/models/Profile.php",
-		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/html/Vagrantfile",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/plugins/compsoc/profile/controllers/Entries.php",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/web/plugins/compsoc/profile/controllers/entries/config_form.yaml",
 		"/home/default/Documents/Academia/University of Lancaster/LUCSS/ca/scc-css-csr.pem",
@@ -288,39 +368,7 @@
 		"/home/default/uni/lucss/web/modules/backend/assets/images/october-logo.svg",
 		"/home/default/uni/lucss/web/modules/backend/assets/images/october-logo-white.svg",
 		"/home/default/uni/lucss/web/modules/backend/assets/images/october-logo-transparent.svg",
-		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/components/eventlist/simple_list.htm",
-		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/components/eventlist/default.htm",
-		"/home/default/uni/lucss/web/plugins/rainlab/blog/vendor/autoload.php",
-		"/home/default/uni/lucss/web/themes/lucssv1/pages/posts.htm",
-		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/components/eventcalendar/responsive.htm",
-		"/home/default/uni/lucss/web/themes/lucssv1/partials/blog/sidebar.htm",
-		"/home/default/uni/lucss/web/plugins/rainlab/blog/components/categories/items.htm",
-		"/home/default/uni/lucss/web/themes/lucssv1/partials/sidebar.htm",
-		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/Plugin.php",
-		"/home/default/uni/lucss/web/themes/lucssv1/layouts/default.htm",
-		"/home/default/uni/lucss/web/themes/lucssv1/layouts/static.htm",
-		"/home/default/uni/lucss/web/plugins/rainlab/blog/components/categories/default.htm",
-		"/home/default/uni/lucss/web/themes/responsiv-flat/assets/less/theme/all.less",
-		"/home/default/uni/lucss/web/themes/lucssv1/pages/events.htm",
-		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/controls/buttons.less",
-		"/home/default/uni/lucss/web/themes/lucssv1/node_modules/font-awesome/less/variables.less",
-		"/home/default/uni/lucss/web/themes/lucssv1/node_modules/font-awesome/less/font-awesome.less",
-		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/controls/input-groups.less",
-		"/home/default/uni/lucss/web/themes/lucssv1/pages/static.htm",
-		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/controllers/generated_dates/config_list.yaml",
-		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/controllers/generated_dates/config_form.yaml",
-		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/controllers/events/config_list.yaml",
-		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/controllers/events/config_form.yaml",
-		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/controllers/calendars/config_list.yaml",
-		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/controllers/calendars/config_form.yaml",
-		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/updates/seed_all_tables.php",
-		"/home/default/uni/lucss/web/themes/lucssv1/content/static-pages/calendar.htm",
-		"/home/default/uni/lucss/old2/head.php",
-		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/models/event/fields.yaml",
-		"/home/default/uni/lucss/old2/index.php",
-		"/home/default/uni/lucss/web/themes/responsiv-flat/pages/blog/blog.htm",
-		"/home/default/uni/lucss/web/themes/responsiv-flat/partials/footer.htm",
-		"/home/default/uni/lucss/web/themes/lucssv1/assets/less/controls/footer.less"
+		"/home/default/uni/lucss/web/plugins/radiantweb/proevents/components/eventlist/simple_list.htm"
 	],
 	"find":
 	{
@@ -328,7 +376,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 92.0,
 		"where_history":
 		[
 			"/home/default/uni/lucss/web/html/",
@@ -450,6 +498,17 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"!important",
+			"dropdown",
+			"redirect",
+			"welcome",
+			"The password confirmation does not match.",
+			"auto_irc",
+			"{",
+			"register_user",
+			"use ",
+			"use",
+			"Crypt",
 			"session",
 			"$e->getMessage",
 			"class Exception",
@@ -566,18 +625,7 @@
 			"Rout",
 			"registerMiddleware",
 			"setLocalesConfigurations",
-			"registerModuleResourceNamespaces",
-			"registerServices",
-			"asd",
-			"503",
-			"CommunityServiceProvider",
-			"communities",
-			"CommunityServiceProvider",
-			"Barryvdh\\Debugbar\\ServiceProvider",
-			"CheckPlanEligibility",
-			"Lara",
-			"prefix",
-			"parseMiddleware"
+			"registerModuleResourceNamespaces"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -671,91 +719,57 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "plugins/compsoc/user/components/RegisterForm.php",
+					"file": "themes/lucssv1/pages/profile.htm",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4802,
+						"buffer_size": 240,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1934,
-								1934
+								152,
+								152
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 462.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "plugins/compsoc/user/components/LoginForm.php",
+					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3855,
+						"buffer_size": 1989,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2025,
-								2025
+								1860,
+								1860
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 504.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "plugins/compsoc/user/lang/en/lang.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2198,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1508,
-								1508
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -765,20 +779,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/home/default/uni/lucss/web/html/modules/backend/behaviors/RelationController.php",
+					"buffer": 2,
+					"file": "modules/system/providers.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 45338,
+						"buffer_size": 1776,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								174,
-								174
+								1685,
+								1685
 							]
 						],
 						"settings":
@@ -791,66 +805,181 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "plugins/compsoc/user/components/registerform/default.htm",
-					"semi_transient": false,
+					"buffer": 3,
+					"file": "composer.json",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 4708,
+						"buffer_size": 1833,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1007,
-								1007
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 210.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "plugins/compsoc/user/classes/Mattermost.php",
+					"buffer": 4,
+					"file": "themes/lucssv1/theme.yaml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 552,
+						"buffer_size": 115,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								206,
-								206
+								115,
+								115
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": ".env.example",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								210,
+								210
+							]
+						],
+						"settings":
+						{
+							"auto_name": "APP_ENV=local",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/default/Documents/Academia/University of Lancaster/LUCSS/web/Vagrantfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 431,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								431,
+								431
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "plugins/compsoc/user/components/profile/default.htm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 836,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								275,
+								275
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "plugins/compsoc/user/components/Profile.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1000,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								672,
+								672
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 84.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -912,6 +1041,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"manager",
+				"vendor/october/rain/src/Auth/Manager.php"
+			],
+			[
+				"menuitemreference",
+				"plugins/rainlab/pages/classes/MenuItemReference.php"
+			],
+			[
+				"manager.php",
+				"vendor/october/rain/src/Auth/Manager.php"
+			],
 			[
 				"componentpartial",
 				"modules/cms/classes/ComponentPartial.php"

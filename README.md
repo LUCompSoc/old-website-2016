@@ -10,7 +10,7 @@ It's actually pretty simple, as long as you've got [Vagrant](https://vagrantup.c
 2. Point `compsoc.lancs.local` to the provided IP address in your `/etc/hosts` file.
 3. Rename `.env.example` to `.env`
 4. Run `vagrant up`. This uses the provided `Vagrantfile` which you may configure as you need. The first time you do this might take a while. 
-5. SSH into the hypervisor with `vagrant ssh`.
+5. SSH into the box with `vagrant ssh`.
 6. Make sure you're in `/var/www/html`.
 7. Run `composer install` to install all the dependencies into `/vendor` (this can take a while, if you just see "Killed" then give the box more memory, but 2048MB should be more than enough).
 8. You'll need to create a new MySQL database called `lucss` before you can:
