@@ -1,6 +1,7 @@
 description = "Static page layout"
 
 [staticPage]
+[session]
 ==
 <!DOCTYPE html>
 <html>
@@ -8,7 +9,7 @@ description = "Static page layout"
         <title>{{ this.page.title }}</title>
         <meta name="description" content="{{ this.page.meta_description }}">
         <meta name="title" content="{{ this.page.meta_title }}">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
         <link rel="icon" type="image/png" href="{{ 'assets/images/logo.png'|theme }}" />
         {% styles %}
         <link href="{{ [

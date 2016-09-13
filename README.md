@@ -22,5 +22,5 @@ It's actually pretty simple, as long as you've got [Vagrant](https://vagrantup.c
 
 * You have to change `/var/www/public` to `/var/www/html` in `/etc/apache2/sites-available/001-default.conf` on the box. Additionally remove the default scotchbox. Remember to restart apache to take effect.
 * You have to 'activate' the main theme before you can see the front-end. Go to Settings > CMS > Front-end Theme and activate.
-* You may experience problems front-end authentication with the university. To combat this, create a new JWT token [here](http://lancs.ac.uk/iss/jwt/list.php). Go into Settings > Users > Compsoc Profile and update the private secret and the redirect url.
+* You may experience problems with front-end authentication to the university. To combat this, create a new JWT token [here](https://weblogin.lancs.ac.uk/jwt/list.php). Go into Settings > Users > Compsoc Profile and update the private secret and set redirect url to `https://weblogin.lancs.ac.uk/jwt/<name>`.
 * You may not be able to register new user accounts as Mattermost is not installed.
