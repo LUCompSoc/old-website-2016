@@ -1,0 +1,3 @@
+[submodule "plugins/indikator/news"]
+	path = plugins/indikator/news
+	url = https://github.com/gergo85/oc-news.git
