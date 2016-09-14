@@ -154,9 +154,7 @@ class RegisterForm extends ComponentBase
                     'irc_id' => $irc_id,
                     // TODO: Check if posted position is real position -- maybe via dynamic list
                     'position' => $post['position'],
-                    'title' => isset($post['title']) ? strip_tags(trim($post['title'])) : '',
-                    // TODO: Again, check if posted newsletters exist or something
-                    'subscribed_newsletters' => json_encode(isset($post['newsletter']) ? array_keys($post['newsletter']) : [])
+                    'title' => isset($post['title']) ? strip_tags(trim($post['title'])) : ''
                 ];
 
                 $requireActivation = UserSettings::get('require_activation', true);
@@ -166,6 +164,25 @@ class RegisterForm extends ComponentBase
 
                 Session::set('request_register', null);
                 Session::set('register_user', null);
+
+                /*
+                 * Did the user want to subscribe to the newsletter?
+                 */
+                if(isset($post['newsletter']) && $post['newsletter'] == 1)
+                {
+                    if (DB::table('news_subscribers')->where('email', $payload->mail)->count() == 0)
+                    {
+                        DB::table('news_subscribers')->insert([
+                            'name'       => $payload->displayName,
+                            'email'      => $payload->mail,
+                            'common'     => '',
+                            'created'    => 2,
+                            'statistics' => 0,
+                            'created_at' => date('Y-m-d H:i:s'),
+                            'updated_at' => date('Y-m-d H:i:s')
+                        ]);
+                    }
+                }
 
                 /*
                  * Activation is by the user, send the email

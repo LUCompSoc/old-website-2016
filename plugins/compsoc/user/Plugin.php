@@ -62,9 +62,16 @@ class Plugin extends PluginBase
      */
     public function boot()
     {
-
         UserModel::extend(function($model) {
             $model->hasOne['profile'] = ['Compsoc\User\Models\Profile'];
+
+            $model->fillable($model->getFillable() + [
+                'university_id',
+                'union_id',
+                'irc_id',
+                'title',
+                'position'
+            ]);
         });
 
         UsersController::extendListColumns(function($list, $model)

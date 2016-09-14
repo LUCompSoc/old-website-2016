@@ -46,15 +46,7 @@ class User extends UserBase
         'username',
         'email',
         'password',
-        'password_confirmation',
-
-        // TODO: Implement this elsewhere
-        'university_id',
-        'union_id',
-        'irc_id',
-        'subscribed_newsletters',
-        'title',
-        'position'
+        'password_confirmation'
     ];
 
     /**
