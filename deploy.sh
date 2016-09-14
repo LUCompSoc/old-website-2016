@@ -13,3 +13,4 @@ git checkout master
 git fetch --all
 git reset --hard origin/master
 chgrp -R www-data .
+php artisan october:up
