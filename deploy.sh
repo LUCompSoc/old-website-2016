@@ -10,7 +10,7 @@ fi
 
 echo "Pulling latest version from the GitHub repo..."
 git checkout master
-git fetch --all
+git fetch --all --recurse-submodules
 git reset --hard origin/master
 chgrp -R www-data .
 php artisan october:up
