@@ -1,9 +1,0 @@
-{% if __SELF__.categories %}
-    <ul class="list-group filter-list-group">
-        {% partial __SELF__ ~ "::items"
-            categories = __SELF__.categories
-            currentCategorySlug = __SELF__.currentCategorySlug
-        %}
-    </ul>
-{% endif %}
-

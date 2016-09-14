@@ -7,3 +7,15 @@
 [submodule "plugins/indikator/backend"]
 	path = plugins/indikator/backend
 	url = https://github.com/gergo85/oc-backend-plus
+[submodule "plugins/rainlab/user"]
+	path = plugins/rainlab/user
+	url = https://github.com/rainlab/user-plugin.git
+[submodule "plugins/rainlab/blog"]
+	path = plugins/rainlab/blog
+	url = https://github.com/rainlab/blog-plugin.git
+[submodule "plugins/rainlab/pages"]
+	path = plugins/rainlab/pages
+	url = https://github.com/rainlab/pages-plugin.git
+[submodule "plugins/rainlab/googleanalytics"]
+	path = plugins/rainlab/googleanalytics
+	url = https://github.com/rainlab/googleanalytics-plugin.git
