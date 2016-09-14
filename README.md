@@ -6,7 +6,7 @@ This is the main site for LUCSS which is built on top of [October](https://octob
 
 It's actually pretty simple, as long as you've got [Vagrant](https://vagrantup.com) installed.
 
-1. Run `git clone https://github.com/LUCompSoc/Web.git compsoc-dev` and then `cd compsoc-dev`.
+1. Run `git clone --recursive https://github.com/LUCompSoc/Web.git compsoc-dev` and then `cd compsoc-dev`.
 2. Point `compsoc.lancs.local` to the provided IP address in your `/etc/hosts` file.
 3. Rename `.env.example` to `.env`
 4. Run `vagrant up`. This uses the provided `Vagrantfile` which you may configure as you need. The first time you do this might take a while. 
