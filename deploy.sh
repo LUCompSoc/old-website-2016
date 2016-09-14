@@ -13,4 +13,5 @@ git checkout master
 git fetch --all --recurse-submodules
 git reset --hard origin/master
 chgrp -R www-data .
+composer install
 php artisan october:up
