@@ -130,18 +130,30 @@ class RegisterForm extends ComponentBase
                 /*
                  * Register user on Mattermost
                  */
-                if(isset($post['auto_irc']) && (int)$post['auto_irc'] == 1) {
-                    Mattermost::create_user($payload->username, $payload->mail, $post['irc_password']);
+                if(isset($post['auto_irc']) && (int)$post['auto_irc'] == 1)
+                {
                     $result = DB::connection('mattermost')->select('select Id from Users where Email = :email limit 1', ['email' => $payload->mail]);
-                    $irc_id = $result[0]->Id;
+
+                    if(isset($result[0]))
+                    {
+                        $irc_id = $result[0]->Id;
+                    }
+                    else
+                    {
+                        Mattermost::createUser($payload->username, $payload->mail, $post['irc_password']);
+                        $result = DB::connection('mattermost')->select('select Id from Users where Email = :email limit 1', ['email' => $payload->mail]);
+                        $irc_id = $result[0]->Id;
+                    }
                 }
 
                 /*
                  * Register user on this system
                  */
                 $names = explode(' ', $payload->displayName);
+
                 // No actual password since we are using JWT
                 $password = md5(time() + uniqid());
+
                 $data = [
                     'email' => $payload->mail,
                     'username' => $payload->username,
@@ -157,13 +169,8 @@ class RegisterForm extends ComponentBase
                     'title' => isset($post['title']) ? strip_tags(trim($post['title'])) : ''
                 ];
 
-                $requireActivation = UserSettings::get('require_activation', true);
                 $automaticActivation = UserSettings::get('activate_mode') == UserSettings::ACTIVATE_AUTO;
-                $userActivation = UserSettings::get('activate_mode') == UserSettings::ACTIVATE_USER;
                 $user = Auth::register($data, $automaticActivation);
-
-                Session::set('request_register', null);
-                Session::set('register_user', null);
 
                 /*
                  * Did the user want to subscribe to the newsletter?
@@ -184,37 +191,25 @@ class RegisterForm extends ComponentBase
                     }
                 }
 
-                /*
-                 * Activation is by the user, send the email
-                 */
-                if ($userActivation) {
-                    Flash::success(Lang::get('rainlab.user::lang.account.activation_email_sent'));
-                    $this->sendActivationEmail($user);
-                    $return['.form-horizontal'] = '';
-                }
+                Session::set('request_register', null);
+                Session::set('register_user', null);
+                Auth::login($user);
 
                 /*
-                 * Automatically activated or not required, log the user in
+                 * Redirect to the intended page after successful sign in
                  */
-                if ($automaticActivation || !$requireActivation) {
-                    Auth::login($user);
+                $redirectUrl = $this->pageUrl($this->property('redirect'))
+                    ?: $this->property('redirect');
 
-                    /*
-                     * Redirect to the intended page after successful sign in
-                     */
-                    $redirectUrl = $this->pageUrl($this->property('redirect'))
-                        ?: $this->property('redirect');
-
-                    if ($redirectUrl = post('redirect', $redirectUrl)) {
-                        return Redirect::intended($redirectUrl);
-                    }
+                if ($redirectUrl = post('redirect', $redirectUrl)) {
+                    return Redirect::to($redirectUrl);
                 }
             }
         }
         catch(Exception $e)
         {
             $this->page['authorised'] = false;
-            Flash::error($e->getMessage());
+            Flash::error($e);
         }
 
         return array_merge($return, 

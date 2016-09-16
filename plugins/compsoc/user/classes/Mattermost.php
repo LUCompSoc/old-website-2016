@@ -5,7 +5,7 @@ use ApplicationException;
 
 class Mattermost
 {
-	public static function create_user($username, $email, $password)
+	public static function createUser($username, $email, $password)
 	{
 		$password = str_replace('$', '\$', $password);
 		$password = str_replace('"', '\"', $password);
