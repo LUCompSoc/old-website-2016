@@ -209,7 +209,7 @@ class RegisterForm extends ComponentBase
         catch(Exception $e)
         {
             $this->page['authorised'] = false;
-            Flash::error($e);
+            Flash::error($e->getMessage());
         }
 
         return array_merge($return, 
