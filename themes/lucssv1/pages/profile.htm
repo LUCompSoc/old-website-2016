@@ -5,11 +5,24 @@ is_hidden = 0
 
 [session]
 security = "user"
-redirect = "home"
+redirect = "login"
 
 [profile]
 ==
 <div class="container">
-    <h4 class="headline"><span>Profile</span></h4>
-    {% component 'profile' %}
+	<h1 class="headline"><span>Profile</span></h1>
+	<div class="row">
+		<div class="col-md-8">
+			{% component 'profile' %}
+		</div>
+		<div class="col-md-4">
+			{% if user.irc_id %}
+				<a class="btn btn-block btn-primary" href="https://scc-css-irc.lancs.ac.uk">Go to Mattermost</a>
+			{% else %}
+				<a class="btn btn-block btn-primary">Create IRC account</a>
+			{% endif %}
+
+			{% partial 'sidebar/profile' %}
+		</div>
+	</div>
 </div>

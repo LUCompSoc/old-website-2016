@@ -1,11 +1,10 @@
 [viewBag]
+
+[staticMenu profileMenu]
+code = "profile-menu"
 ==
-<!-- Categories -->
-<div class="panel panel-default">
-    <div class="panel-heading">
-        Upcoming Events
-    </div>
-    <div class="panel-body">
-    	...
-    </div>
+<div class="list-group">
+	{% for item in profileMenu.menuItems %}
+        <a href="{{ item.url }}">{{ item.title }}</a>
+    {% endfor %}
 </div>
