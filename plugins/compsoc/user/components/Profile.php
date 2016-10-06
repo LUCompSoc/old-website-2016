@@ -8,12 +8,12 @@ use Flash;
 use Input;
 use Request;
 use Redirect;
+use Exception;
 use Validator;
+use Cms\Classes\Page;
 use ValidationException;
 use ApplicationException;
-use Cms\Classes\Page;
 use Cms\Classes\ComponentBase;
-use Exception;
 
 class Profile extends ComponentBase
 {

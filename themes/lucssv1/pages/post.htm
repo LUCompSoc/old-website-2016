@@ -1,12 +1,12 @@
 title = "Post"
-url = "/post/:slug?"
+url = "/post/:category/:slug?"
 layout = "default"
 is_hidden = 0
 
 [blogPost]
-[blogCategories]
 slug = "{{ :slug }}"
-categoryPage = "posts"
+categoryFilter = "{{ :category }}"
+categoryPage = 404
 ==
 {% if post %}
 <div class="container">
@@ -15,7 +15,31 @@ categoryPage = "posts"
             <div class="blog-post">
                 <h1 class="headline"><span>{{ post.title }}</span></h1>
 
-                {% component 'blogPost' %}
+                <strong class="info">
+                    Posted
+                    {% if post.categories.count %} in
+                        {% for category in post.categories %}
+                            <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                    on {{ post.published_at|date('M d, Y') }}
+                </strong>
+
+                <div class="content">{{ post.content_html|raw }}</div>
+
+                {% if post.featured_images.count %}
+                    <div class="featured-images text-center">
+                        {% for image in post.featured_images %}
+                            <p>
+                                <img
+                                    data-src="{{ image.filename }}"
+                                    src="{{ image.path }}"
+                                    alt="{{ image.description }}"
+                                    style="max-width: 100%" />
+                            </p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
             </div>
         </div>
         <div class="col-md-4">

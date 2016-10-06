@@ -1,11 +1,50 @@
 name: 'About Menu'
 items:
     -
+        title: About
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: about
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
         title: Executive
         nesting: '0'
         type: static-page
+        url: ''
         code: ''
         reference: about-executive
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Cookie Policy'
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: policies-cookies
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Constitution
+        nesting: '0'
+        type: static-page
+        code: ''
+        reference: policies-constitution
         replace: '0'
         viewBag:
             isHidden: '0'

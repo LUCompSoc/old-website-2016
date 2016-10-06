@@ -23,6 +23,8 @@ code = "user-menu"
                 {% endfor %}
 
                 {% if user %}
+                    <li><a href="{{ 'jobs'|app }}">Jobs</a></li>
+
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ user.name }} <span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -32,6 +34,7 @@ code = "user-menu"
                         </ul>
                     </li>
                 {% else %}
+                    <li><a href="{{ 'join'|app }}">Join</a></li>
                     <li><a href="{{ 'login'|app }}">Login</a></li>
                 {% endif %}
             </ul>

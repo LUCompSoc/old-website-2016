@@ -1,7 +1,10 @@
-description = "Blank layout"
+description = "Static page with sidebar"
 
 [staticPage]
 [session]
+
+[staticMenu]
+code = "about-menu"
 ==
 <!DOCTYPE html>
 <html>
@@ -26,18 +29,34 @@ description = "Blank layout"
 
         <!-- Content -->
         <div id="layout-content">
-            {% page %}
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h1 class="headline"><span>{{ this.page.title }}</span></h1>
+                    
+                        {% page %}
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-default">
+                            <div class="list-group">
+                                {% for item in staticMenu.menuItems %}
+                                    <a class="list-group-item{{ item.isActive ? ' active' : ''}}" href="{{ item.url }}">{{ item.title }}</a>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Footer -->
         <footer id="layout-footer">
             {% partial "footer" %}
         </footer>
-        
+
         <!-- Scripts -->
         <script src="{{ [
             'assets/javascript/jquery.js',
-            'assets/vendor/flat-ui/js/flatui-checkbox.js',
             'assets/vendor/bootstrap/js/transition.js',
             'assets/vendor/bootstrap/js/alert.js',
             'assets/vendor/bootstrap/js/button.js',

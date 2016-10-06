@@ -26,16 +26,3 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
-    -
-        title: Join
-        nesting: ''
-        type: url
-        url: /join
-        code: ''
-        reference: ''
-        cmsPage: ''
-        replace: ''
-        viewBag:
-            isHidden: '0'
-            cssClass: btn-join
-            isExternal: '0'

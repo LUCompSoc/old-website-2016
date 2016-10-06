@@ -11,6 +11,39 @@ sortOrder = "published_at desc"
 categoryPage = "posts"
 postPage = "post"
 ==
+<?php
+use RainLab\Blog\Models\Post as BlogPost;
+
+function onEnd()
+{
+    /*
+     * List all the posts, eager load their categories
+     */
+    $posts = BlogPost::with([
+        'categories' => function($q) {
+            $q->where('id', '<>', '3');
+        }
+    ])
+    ->listFrontEnd([
+        'page'       => $this->blogPosts->posts->currentPage(),
+        'sort'       => 'published_at desc',
+        'perPage'    => $this->blogPosts->posts->perPage()
+    ]);
+
+    /*
+     * Add a "url" helper attribute for linking to each post and category
+     */
+    $posts->each(function($post) {
+        $post->setUrl($this->postPage, $this->controller);
+        $post->categories->each(function($category){
+            $category->setUrl($this->categoryPage, $this->controller);
+        });
+    });
+
+    $this['posts'] = $posts;
+}
+?>
+==
 <div class="container">
     <div class="row">
         <div class="col-md-8">
@@ -24,7 +57,26 @@ postPage = "post"
             <section class="recent-posts">
                 <h1 class="headline"><span>Recent posts</span></h1>
 
-                {% component 'blogPosts' %}
+                 <ul class="post-list">
+                    {% for post in posts %}
+                        <li>
+                            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+
+                            <p class="info">
+                                Posted
+                                {% if post.categories.count %} in {% endif %}
+                                {% for category in post.categories %}
+                                    <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
+                                {% endfor %}
+                                on {{ post.published_at|date('M d, Y') }}
+                            </p>
+
+                            <p class="excerpt">{{ post.summary }}</p>
+                        </li>
+                    {% else %}
+                        <li class="no-data">{{ noPostsMessage }}</li>
+                    {% endfor %}
+                </ul>
             </section>
 
         </div>

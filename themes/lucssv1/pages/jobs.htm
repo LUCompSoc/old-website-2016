@@ -1,0 +1,91 @@
+title = "Jobs"
+url = "/jobs/:page?"
+layout = "default"
+is_hidden = 0
+
+[session]
+security = "user"
+redirect = "login"
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 10
+noPostsMessage = "No jobs found"
+sortOrder = ""
+postPage = "job"
+==
+<?php
+use RainLab\Blog\Models\Post as BlogPost;
+
+function onEnd()
+{
+    /*
+     * List all the posts, eager load their categories
+     */
+    $posts = BlogPost::with('categories')->listFrontEnd([
+        'page'       => $this->blogPosts->posts->currentPage(),
+        'sort'       => 'published_at desc',
+        'perPage'    => $this->blogPosts->posts->perPage(),
+        'category'   => 3
+    ]);
+
+    /*
+     * Add a "url" helper attribute for linking to each post and category
+     */
+    $posts->each(function($post) {
+        $post->setUrl($this->postPage, $this->controller);
+
+        $post->categories->each(function($category) {
+            $category->setUrl($this->categoryPage, $this->controller);
+        });
+    });
+
+    $this['posts'] = $posts;
+}
+?>
+==
+<div class="container">
+    <section class="recent-posts">
+        <h1 class="headline"><span>{{this.page.title}}</span></h1>
+
+        <ul class="post-list">
+            {% for post in posts %}
+                <li>
+                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+
+                    <p class="info">
+                        Posted
+                        {% if post.categories.count %} in {% endif %}
+                        {% for category in post.categories %}
+                            <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
+                        {% endfor %}
+                        on {{ post.published_at|date('M d, Y') }}
+                    </p>
+
+                    <p class="excerpt">{{ post.summary }}</p>
+                </li>
+            {% else %}
+                <li class="no-data">{{ noPostsMessage }}</li>
+            {% endfor %}
+        </ul>
+
+        {% if posts.lastPage > 1 %}
+            <ul class="pagination">
+                {% if posts.currentPage > 1 %}
+                    <li><a href="{{ this.page.baseFileName|page({ (pageParam): (posts.currentPage-1) }) }}">&larr; Prev</a></li>
+                {% endif %}
+
+                {% for page in 1..posts.lastPage %}
+                    <li class="{{ posts.currentPage == page ? 'active' : null }}">
+                        <a href="{{ this.page.baseFileName|page({ (pageParam): page }) }}">{{ page }}</a>
+                    </li>
+                {% endfor %}
+
+                {% if posts.lastPage > posts.currentPage %}
+                    <li><a href="{{ this.page.baseFileName|page({ (pageParam): (posts.currentPage+1) }) }}">Next &rarr;</a></li>
+                {% endif %}
+            </ul>
+        {% endif %}
+
+    </section>
+</div>

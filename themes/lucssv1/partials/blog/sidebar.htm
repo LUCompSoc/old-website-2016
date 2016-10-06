@@ -7,8 +7,22 @@ categoryPage = "posts"
 ==
 <!-- Categories -->
 <div class="panel panel-default">
-    <div class="panel-heading">
-        Categories
-    </div>
-    {% component 'blogCategories' %}
+	<div class="panel-heading">
+		Categories
+	</div>
+
+	<div class="list-group">
+		{% for category in categories %}
+			{% set postCount = category.post_count %}
+			{% if category.slug == "jobs" %}
+			{% else %}
+			<a href="{{ category.url }}" class="list-group-item {% if category.slug == currentCategorySlug %}active{% endif %}">
+				{{ category.name }}
+				{% if postCount %}
+					<span class="badge">{{ postCount }}</span>
+				{% endif %}
+			</a>
+			{% endif %}
+		{% endfor %}
+	</div>
 </div>

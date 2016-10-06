@@ -10,6 +10,7 @@
     display: block;
     position: relative;
     margin-bottom: 20px;
+    margin-top: 5px;
 
     > span {
         display: inline-block;
@@ -32,32 +33,83 @@
 // List calendar
 //
 .list-calendar {
-    padding-right: 0;
+    &:hover {
+        color: @text-color !important;
+    }
 
-    .month, .day {
-        border: solid 1px;
-        text-align: center;
-        line-height: 100%;
+    .item-calendar {
+        padding-right: 0;
+
+        .month, .day {
+            border: solid 1px;
+            text-align: center;
+            line-height: 100%;
+        }
+
+        .month {
+            .border-top-radius(3px);
+            background-color: @alizarin;
+            border-color: @pomegranate;
+            font-family: 'Raleway', Helvetica, Arial, sans-serif;
+            font-size: @font-size-base * 0.7;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #fff;
+            padding-top: 3px;
+            padding-bottom: 2px;
+        }
+
+        .day {
+            .border-bottom-radius(3px);
+            border-color: @gray-lighter;
+            border-color: rgba(0,0,0,.2);
+            border-top: none;
+            background-color: #fff;
+            padding-top: 4px;
+            padding-bottom: 3px;
+        }
     }
-    .month {
-        .border-top-radius(3px);
-        background-color: @alizarin;
-        border-color: @pomegranate;
-        font-family: 'Raleway', Helvetica, Arial, sans-serif;
-        font-size: @font-size-base * 0.7;
-        text-transform: uppercase;
-        font-weight: bold;
-        color: #fff;
-        padding-top: 3px;
-        padding-bottom: 2px;
-    }
-    .day {
-        .border-bottom-radius(3px);
-        border-color: @gray-lighter;
-        border-color: rgba(0,0,0,.2);
-        border-top: none;
-        background-color: #fff;
-        padding-top: 4px;
-        padding-bottom: 3px;
+}
+
+// External links
+
+a[href^="http://"]:after, a[href^="https://"]:after {
+    content: "\f08e";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+a[href^="http://compsoc.lancs.local"]:after,
+a[href^="https://compsoc.lancs.local"]:after,
+a.no-external-icon:after {
+    content: "" !important;
+    padding-left: 0;
+    display: none;
+}
+
+// Updated linked list items
+//
+// Use anchor elements instead of `li`s or `div`s to create linked list items.
+// Includes an extra `.active` modifier class for showing selected items.
+
+a.list-group-item {
+    // Active class on item itself, not parent
+    &.active,
+    &.active:hover,
+    &.active:focus {
+        margin-left: -1px;
+        margin-right: -1px;
+        border-left: solid 1px darker(@list-group-active-bg, 20%);
+        border-right: solid 1px darker(@list-group-active-bg, 20%);
+
+        &:first-child, &:last-child {
+            margin: -1px;
+            border: solid 1px darker(@list-group-active-bg, 20%);
+        }
     }
 }

@@ -8,19 +8,22 @@ class AddUserProfileFields extends Migration
 {
     public function up()
     {
-        Schema::table('users', function(Blueprint $table) {
+        Schema::table('users', function(Blueprint $table)
+        {
             $table->integer('university_id')->nullable();
             $table->integer('union_id')->nullable();
             $table->string('irc_id')->nullable();
             $table->string('title')->nullable();
             $table->string('position')->nullable();
+            $table->enum('lifetime_member', ['0', '1'])->default('0');
         });
     }
 
     public function down()
     {
-        Schema::table('users', function(Blueprint $table) {
-            $table->dropColumn(['university_id', 'union_id', 'irc_id', 'title', 'position']);
+        Schema::table('users', function(Blueprint $table)
+        {
+            $table->dropColumn(['university_id', 'union_id', 'irc_id', 'title', 'position', 'lifetime_member']);
         });
     }
 }

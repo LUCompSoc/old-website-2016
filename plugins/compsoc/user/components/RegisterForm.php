@@ -5,16 +5,16 @@ use Auth;
 use Mail;
 use Lang;
 use Flash;
-use Redirect;
 use Session;
-use Cms\Classes\ComponentBase;
-use RainLab\User\Models\User as UserModel;
-use RainLab\User\Models\Settings as UserSettings;
-use Compsoc\User\Classes\JWT;
-use Compsoc\User\Classes\Mattermost;
-use Compsoc\User\Models\Settings;
+use Redirect;
 use Exception;
 use ApplicationException;
+use Compsoc\User\Classes\JWT;
+use Cms\Classes\ComponentBase;
+use Compsoc\User\Models\Settings;
+use Compsoc\User\Classes\Mattermost;
+use RainLab\User\Models\User as UserModel;
+use RainLab\User\Models\Settings as UserSettings;
 
 class RegisterForm extends ComponentBase
 {

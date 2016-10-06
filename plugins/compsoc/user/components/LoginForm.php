@@ -4,16 +4,16 @@ use Auth;
 use Lang;
 use Input;
 use Flash;
-use Redirect;
 use Session;
+use Redirect;
+use Exception;
 use Validator;
 use ValidationException;
-use Cms\Classes\ComponentBase;
 use ApplicationException;
-use RainLab\User\Models\User as UserModel;
 use Compsoc\User\Classes\JWT;
+use Cms\Classes\ComponentBase;
 use Compsoc\User\Models\Settings;
-use Exception;
+use RainLab\User\Models\User as UserModel;
 
 class LoginForm extends ComponentBase
 {
