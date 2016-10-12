@@ -1,4 +1,4 @@
-<?php namespace Compsoc\User\Facades;
+<?php namespace CompSoc\User\Facades;
 
 use October\Rain\Support\Facade;
 

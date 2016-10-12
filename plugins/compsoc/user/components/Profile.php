@@ -1,4 +1,4 @@
-<?php namespace Compsoc\User\Components;
+<?php namespace CompSoc\User\Components;
 
 use Lang;
 use Auth;

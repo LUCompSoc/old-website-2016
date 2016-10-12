@@ -1,4 +1,4 @@
-<?php namespace Compsoc\User\Components;
+<?php namespace CompSoc\User\Components;
 
 use Auth;
 use Lang;
@@ -10,9 +10,9 @@ use Exception;
 use Validator;
 use ValidationException;
 use ApplicationException;
-use Compsoc\User\Classes\JWT;
+use CompSoc\User\Classes\JWT;
 use Cms\Classes\ComponentBase;
-use Compsoc\User\Models\Settings;
+use CompSoc\User\Models\Settings;
 use RainLab\User\Models\User as UserModel;
 
 class LoginForm extends ComponentBase

@@ -1,4 +1,4 @@
-<?php namespace Compsoc\User;
+<?php namespace CompSoc\User;
 
 use App;
 use Backend;
@@ -39,14 +39,14 @@ class Plugin extends PluginBase
     {
         $alias = AliasLoader::getInstance();
 
-        $alias->alias('JWT', 'Compsoc\User\Facades\JWT');
+        $alias->alias('JWT', 'CompSoc\User\Facades\JWT');
         App::singleton('JWT', function() {
-            return \Compsoc\User\Classes\JWT::instance();
+            return \CompSoc\User\Classes\JWT::instance();
         });
 
-        $alias->alias('Mattermost', 'Compsoc\User\Facades\Mattermost');
+        $alias->alias('Mattermost', 'CompSoc\User\Facades\Mattermost');
         App::singleton('Mattermost', function() {
-            return \Compsoc\User\Classes\Mattermost::instance();
+            return \CompSoc\User\Classes\Mattermost::instance();
         });
 
         $alias->alias('Auth', 'RainLab\User\Facades\Auth');
@@ -127,9 +127,9 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            'Compsoc\User\Components\LoginForm' => 'loginForm',
-            'Compsoc\User\Components\RegisterForm' => 'registerForm',
-            'Compsoc\User\Components\Profile' => 'profile',
+            'CompSoc\User\Components\LoginForm' => 'loginForm',
+            'CompSoc\User\Components\RegisterForm' => 'registerForm',
+            'CompSoc\User\Components\Profile' => 'profile',
         ];
     }
 
@@ -178,7 +178,7 @@ class Plugin extends PluginBase
                 'description' => 'compsoc.user::lang.settings.menu_description',
                 'category'    => SettingsManager::CATEGORY_USERS,
                 'icon'        => 'icon-cog',
-                'class'       => 'Compsoc\User\Models\Settings',
+                'class'       => 'CompSoc\User\Models\Settings',
                 'order'       => 500,
                 'permissions' => ['rainlab.users.access_settings'],
             ]

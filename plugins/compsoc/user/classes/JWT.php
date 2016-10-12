@@ -1,4 +1,4 @@
-<?php namespace Compsoc\User\Classes;
+<?php namespace CompSoc\User\Classes;
 
 use Doctrine\Instantiator\Exception\UnexpectedValueException;
 

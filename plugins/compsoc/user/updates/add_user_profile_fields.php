@@ -1,4 +1,4 @@
-<?php namespace Compsoc\User\Updates;
+<?php namespace CompSoc\User\Updates;
 
 use Schema;
 use October\Rain\Database\Schema\Blueprint;

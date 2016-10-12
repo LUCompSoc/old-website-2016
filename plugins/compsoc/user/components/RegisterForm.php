@@ -1,4 +1,4 @@
-<?php namespace Compsoc\User\Components;
+<?php namespace CompSoc\User\Components;
 
 use DB;
 use Auth;
@@ -9,10 +9,10 @@ use Session;
 use Redirect;
 use Exception;
 use ApplicationException;
-use Compsoc\User\Classes\JWT;
+use CompSoc\User\Classes\JWT;
 use Cms\Classes\ComponentBase;
-use Compsoc\User\Models\Settings;
-use Compsoc\User\Classes\Mattermost;
+use CompSoc\User\Models\Settings;
+use CompSoc\User\Classes\Mattermost;
 use RainLab\User\Models\User as UserModel;
 use RainLab\User\Models\Settings as UserSettings;
 

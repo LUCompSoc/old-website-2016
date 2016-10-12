@@ -1,4 +1,4 @@
-<?php namespace Compsoc\User\Models;
+<?php namespace CompSoc\User\Models;
 
 use October\Rain\Database\Model;
 
