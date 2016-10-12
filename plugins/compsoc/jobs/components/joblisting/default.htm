@@ -31,7 +31,7 @@
             {% endif %}
 
             <h4>Starting</h4>
-            {{ job.start_date|date('F d Y') }}
+            {{ job.start_date|date('F Y') }}
 
             {% if job.expired %}
             {% else %}
@@ -42,7 +42,7 @@
                 {% endif %}
 
                 <h4>Application Deadline</h4>
-                {{ job.deadline|date('F Y')}}
+                {{ job.deadline|date('F d, Y')}}
             {% endif %}
         </div>
 
