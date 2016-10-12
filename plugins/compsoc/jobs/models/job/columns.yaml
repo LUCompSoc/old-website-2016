@@ -1,0 +1,37 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+    company:
+        label: compsoc.jobs::lang.job.company
+        searchable: true
+
+    # author:
+    #   label: Author
+    #   relation: user
+    #   select: login
+    #   searchable: true
+
+    position:
+        label: compsoc.jobs::lang.job.position
+        searchable: true
+
+    location:
+        label: compsoc.jobs::lang.job.location
+        searchable: true
+
+    created_at:
+        label: rainlab.blog::lang.post.created
+        type: date
+        invisible: true
+
+    updated_at:
+        label: rainlab.blog::lang.post.updated
+        type: date
+        invisible: true
+
+    published_at:
+        label: rainlab.blog::lang.post.published
+        type: date

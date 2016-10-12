@@ -1,0 +1,65 @@
+<?php Block::put('breadcrumb') ?>
+    <ul>
+        <li><a href="<?= Backend::url('compsoc/jobs/listings') ?>"><?= e(trans('compsoc.jobs::lang.jobs.menu_label')) ?></a></li>
+        <li><?= e($this->pageTitle) ?></li>
+    </ul>
+<?php Block::endPut() ?>
+
+<?php if (!$this->fatalError): ?>
+
+    <?php Block::put('form-contents') ?>
+
+        <?= $this->formRenderPrimaryTabs() ?>
+
+        <div class="form-buttons layout-item fix">
+            <div class="loading-indicator-container">
+                <button
+                    type="submit"
+                    data-request="onSave"
+                    data-request-data="redirect:0"
+                    data-hotkey="ctrl+s, cmd+s"
+                    data-load-indicator="<?= e(trans('compsoc.jobs::lang.backend.saving')) ?>"
+                    class="btn btn-primary">
+                    <?= e(trans('compsoc.jobs::lang.backend.update')) ?>
+                </button>
+
+                <button
+                    type="button"
+                    data-request="onSave"
+                    data-request-data="close:1"
+                    data-hotkey="ctrl+enter, cmd+enter"
+                    data-load-indicator="<?= e(trans('compsoc.jobs::lang.backend.updating')) ?>"
+                    class="btn btn-default">
+                    <?= e(trans('compsoc.jobs::lang.backend.update_close')) ?>
+                </button>
+
+                <span class="btn-text">
+                    <?= e(trans('compsoc.jobs::lang.backend.or')) ?> <a href="<?= Backend::url('compsoc/jobs/listings') ?>"><?= e(trans('compsoc.jobs::lang.backend.cancel')) ?></a>
+                </span>
+            </div>
+        </div>
+
+    <?php Block::endPut() ?>
+
+    <?php Block::put('body') ?>
+
+        <?= Form::open([
+            'class' => 'layout',
+            'id' => 'job-form'
+        ]) ?>
+
+            <?= Block::placeholder('form-contents') ?>
+            
+        <?= Form::close() ?>
+
+    <?php Block::endPut() ?>
+
+<?php else: ?>
+    <div class="padded-container">
+        <div class="control-breadcrumb">
+            <?= Block::placeholder('breadcrumb') ?>
+        </div>
+        <p class="flash-message static error"><?= e($this->fatalError) ?></p>
+        <p><a href="<?= Backend::url('compsoc/jobs/listings') ?>" class="btn btn-default"><?= e(trans('compsoc.jobs::lang.jobs.return')) ?></a></p>
+    </div>
+<?php endif ?>

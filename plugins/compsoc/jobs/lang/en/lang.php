@@ -1,0 +1,85 @@
+<?php
+
+return [
+    'plugin' => [
+        'name' => 'Jobs',
+        'description' => 'A jobs bulletin board.'
+    ],
+    'jobs' => [
+        'menu_label' => 'Jobs',
+        'menu_description' => 'Manage Job Listings',
+        'listings' => 'Job Listings',
+        'new_listing' => 'New Listing',
+        'categories' => 'Categories',
+        'create_category' => 'Blog category',
+        'tab' => 'Blog',
+        'access_jobs' => 'Manage the job listings',
+        'access_other_jobs' => 'Manage other users job listings',
+        'access_import_export' => 'Allowed to import and export job listings',
+        'access_publish' => 'Allowed to publish job listings',
+        'delete_confirm' => 'Are you sure?',
+        'chart_published' => 'Published',
+        'chart_drafts' => 'Drafts',
+        'chart_total' => 'Total',
+        'list_title' => 'Manage the blog posts',
+        'filter_category' => 'Category',
+        'filter_published' => 'Published',
+        'filter_date' => 'Date',
+        'return' => 'Return to Listings'
+    ],
+
+    'job' => [
+        'company' => 'Company',
+        'industry' => 'Industry',
+        'position' => 'Position',
+        'location' => 'Location',
+        'earnings' => 'Earnings',
+        'deadline' => 'Deadline',
+        'start_date' => 'Start Date',
+        'contact_email' => 'Primary Email Contact',
+        'company_url' => 'Company Homepage',
+        'company_logo' => 'Company Logo',
+        'reference' => 'Referral Code',
+
+        'company_placeholder' => 'Company Name',
+        'industry_placeholder' => 'Relevant Industry or Sector',
+        'position_placeholder' => 'e.g. Data Scientist / Graduate Scheme',
+        'location_placeholder' => 'Job location',
+        'earnings_placeholder' => 'e.g. £24,000pa',
+        'contact_email_placeholder' => 'applications@acme.org',
+        'company_url_placeholder' => 'https://www.acme.org',
+        'reference_placeholder' => 'A reference code that candidates can use to show they applied via the society',
+
+        'tab_required' => 'Job Details',
+        'tab_additional' => 'Additional Info',
+        'tab_manage' => 'Manage',
+
+        'pinned' => 'Pin to top of jobs board',
+        'created' => 'Created',
+        'created_date' => 'Created date',
+        'updated' => 'Updated',
+        'updated_date' => 'Updated date',
+        'published' => 'Published',
+        'published_on' => 'Published on',
+        'published_date' => 'Published date',
+        'published_validation' => 'Please specify the published date',
+        'excerpt' => 'Excerpt',
+        'summary' => 'Summary',
+        'content' => 'Content',
+        'content_html' => 'HTML Content',
+    ],
+
+    'backend' => [
+        'or' => 'or',
+        'cancel' => 'Cancel',
+        'save' => 'Save',
+        'saving' => 'Saving Job Listing...',
+        'save_close' => 'Save and Close',
+        'create' => 'Create',
+        'creating' => 'Creating Job Listing...',
+        'create_close' => 'Create and Close',
+        'update' => 'Update',
+        'updating' => 'Updating Job Listing...',
+        'update_close' => 'Update and Close'
+    ],
+];

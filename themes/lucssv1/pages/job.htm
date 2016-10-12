@@ -1,0 +1,16 @@
+title = "Job"
+url = "/job/:id?"
+layout = "default"
+is_hidden = 0
+
+[jobListing]
+==
+{% if job %}
+<div class="container job">
+    {% component 'jobListing' %}
+</div>
+{% else %}
+
+    {% partial 'error/404' %}
+
+{% endif %}

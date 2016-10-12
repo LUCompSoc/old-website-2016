@@ -1,0 +1,118 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+tabs:
+    fields:
+        # Job Details
+        position:
+            tab: compsoc.jobs::lang.job.tab_required
+            label: compsoc.jobs::lang.job.position
+            span: left
+            placeholder: compsoc.jobs::lang.job.position_placeholder
+
+        company:
+            tab: compsoc.jobs::lang.job.tab_required
+            label: compsoc.jobs::lang.job.company
+            span: right
+            placeholder: compsoc.jobs::lang.job.company_placeholder
+
+        location:
+            tab: compsoc.jobs::lang.job.tab_required
+            label: compsoc.jobs::lang.job.location
+            span: right
+            placeholder: compsoc.jobs::lang.job.location_placeholder
+
+        earnings:
+            tab: compsoc.jobs::lang.job.tab_required
+            label: compsoc.jobs::lang.job.earnings
+            span: left
+            placeholder: compsoc.jobs::lang.job.earnings_placeholder
+
+        content:
+            tab: compsoc.jobs::lang.job.tab_required
+            label: compsoc.jobs::lang.job.content
+            type: richeditor
+            size: huge
+
+        excerpt:
+            tab: compsoc.jobs::lang.job.tab_required
+            label: compsoc.jobs::lang.job.excerpt
+            type: textarea
+            size: small
+        
+        # Additional Info
+        industry:
+            tab: compsoc.jobs::lang.job.tab_additional
+            label: compsoc.jobs::lang.job.industry
+            span: left
+            placeholder: compsoc.jobs::lang.job.industry_placeholder
+        
+        company_url:
+            tab: compsoc.jobs::lang.job.tab_additional
+            label: compsoc.jobs::lang.job.company_url
+            span: right
+            placeholder: compsoc.jobs::lang.job.company_url_placeholder
+        
+        reference:
+            tab: compsoc.jobs::lang.job.tab_additional
+            label: compsoc.jobs::lang.job.reference
+            span: left
+            placeholder: compsoc.jobs::lang.job.reference_placeholder
+
+        contact_email:
+            tab: compsoc.jobs::lang.job.tab_additional
+            label: compsoc.jobs::lang.job.contact_email
+            span: right
+            placeholder: compsoc.jobs::lang.job.contact_email_placeholder
+
+        company_logo:
+            tab: compsoc.jobs::lang.job.tab_additional
+            label: compsoc.jobs::lang.job.company_logo
+            type: fileupload
+            span: left
+            options:
+                mode: image
+                image-width: 127
+                image-height: 127
+
+        # Manage
+        pinned:
+            tab: compsoc.jobs::lang.job.tab_manage
+            label: compsoc.jobs::lang.job.pinned
+            span: left
+            type: checkbox
+
+        published:
+            tab: compsoc.jobs::lang.job.tab_manage
+            label: compsoc.jobs::lang.job.published
+            span: left
+            type: checkbox
+
+        published_at:
+            tab: compsoc.jobs::lang.job.tab_manage
+            label: compsoc.jobs::lang.job.published_on
+            span: left
+            cssClass: checkbox-align
+            type: datepicker
+            mode: datetime
+            trigger:
+                action: enable
+                field: published
+                condition: checked
+
+        deadline:
+            tab: compsoc.jobs::lang.job.tab_manage
+            label: compsoc.jobs::lang.job.deadline
+            span: left
+            cssClass: checkbox-align
+            type: datepicker
+            mode: datetime
+
+        start_date:
+            tab: compsoc.jobs::lang.job.tab_manage
+            label: compsoc.jobs::lang.job.start_date
+            span: left
+            cssClass: checkbox-align
+            type: datepicker
+            mode: datetime

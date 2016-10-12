@@ -1,0 +1,29 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Job
+
+# Model Form Field configuration
+form: $/compsoc/jobs/models/job/fields.yaml
+
+# Model Class name
+modelClass: CompSoc\Jobs\Models\Job
+
+# Default redirect location
+defaultRedirect: compsoc/jobs/listings
+
+# Create page
+create:
+    redirect: compsoc/jobs/listings/update/:id
+    redirectClose: compsoc/jobs/listings
+
+# Update page
+update:
+    redirect: compsoc/jobs/listings
+    redirectClose: compsoc/jobs/listings
+
+# Preview page
+preview:
+    title: Preview Job

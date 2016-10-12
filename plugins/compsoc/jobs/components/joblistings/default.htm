@@ -1,0 +1,45 @@
+<ul class="job-listings">
+    {% for job in jobs %}
+        <li>
+            <span class="label label-info">{{ job.deadline|date('M d, Y') }}</span>
+            
+            <h2>
+                {% if job.pinned %}
+                    <i class="fa fa-star text-warning"></i>
+                {% endif %}
+                <a href="{{ job.url }}">{{ job.position }}</a>
+            </h2>
+
+            <div class="row job-details">
+                <div class="col-md-6">
+                    {{ job.company }},  {{ job.location }}
+                </div>
+                <div class="col-md-6">
+                    {{ job.earnings }}
+                </div>
+            </div>
+
+            <p class="excerpt">{{ job.summary }}</p>
+        </li>
+    {% else %}
+        <li class="no-data">{{ noJobsMessage }}</li>
+    {% endfor %}
+</ul>
+
+{% if jobs.lastPage > 1 %}
+    <ul class="pagination">
+        {% if jobs.currentPage > 1 %}
+            <li><a href="{{ this.page.baseFileName|page({ (pageParam): (jobs.currentPage-1) }) }}">&larr; Prev</a></li>
+        {% endif %}
+
+        {% for page in 1..jobs.lastPage %}
+            <li class="{{ jobs.currentPage == page ? 'active' : null }}">
+                <a href="{{ this.page.baseFileName|page({ (pageParam): page }) }}">{{ page }}</a>
+            </li>
+        {% endfor %}
+
+        {% if jobs.lastPage > jobs.currentPage %}
+            <li><a href="{{ this.page.baseFileName|page({ (pageParam): (jobs.currentPage+1) }) }}">Next &rarr;</a></li>
+        {% endif %}
+    </ul>
+{% endif %}

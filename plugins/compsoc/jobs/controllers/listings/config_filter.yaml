@@ -1,0 +1,29 @@
+# ===================================
+# Filter Scope Definitions
+# ===================================
+
+scopes:
+
+    published:
+
+        # Filter name
+        label: compsoc.jobs::lang.jobs.filter_published
+
+        # Filter type
+        type: switch
+
+        # SQL Conditions
+        conditions:
+            - published <> '1'
+            - published = '1'
+
+    published_date:
+
+        # Filter name
+        label: compsoc.jobs::lang.jobs.filter_date
+
+        # Filter type
+        type: daterange
+
+        # SQL Conditions
+        conditions: created_at >= ':after' AND created_at <= ':before'

@@ -1,0 +1,50 @@
+<div class="row">
+    <div class="col-md-8">
+        <div class="blog-post">
+            <h1 class="headline">{% if job.pinned %}<span class="label">Pinned</span>{% endif %}<span>{{ job.position }}</span></h2>
+            <p>{{ job.excerpt }}</p>
+
+            {{ job.content|raw }}
+        </div>
+    </div>
+    <div class="col-md-4">
+        {% if job.expired %}
+            <div class="alert alert-danger"><strong>Applications closed</strong></div>
+        {% else %}
+            {% if job.reference %}
+                <div class="alert alert-success">
+                    REFERENCE: <strong>{{ job.reference }}</strong>
+                </div>
+            {% endif %}
+        {% endif %}
+
+        <div class="well">
+            <h4>{% if job.company_url %}<a href="{{ job.company_url }}">{{ job.company }}</a>{% else %}{{ job.company }}{% endif %}</h4>
+            {{ job.location }}
+
+            <h4>Industry</h4>
+            {{ job.industry }}
+
+            {% if job.earnings %}
+                <h4>Earnings</h4>
+                {{ job.earnings }}
+            {% endif %}
+
+            <h4>Starting</h4>
+            {{ job.start_date|date('F Y') }}
+
+            {% if job.expired %}
+            {% else %}
+
+                {% if job.contact_email %}
+                    <h4>Contact</h4>
+                    {{ job.contact_email }}
+                {% endif %}
+
+                <h4>Application Deadline</h4>
+                {{ job.deadline|date('F Y')}}
+            {% endif %}
+        </div>
+
+    </div>
+</div>
