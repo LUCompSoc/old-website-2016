@@ -4,7 +4,7 @@ This is the main site for LUCSS which is built on top of [October](https://octob
 
 ### Setting up on your local machine
 
-It's actually pretty simple, as long as you've got [Vagrant](https://vagrantup.com) installed.
+Once you've installed [Vagrant](https://vagrantup.com), follow these steps:
 
 1. Run `git clone --recursive https://github.com/LUCompSoc/Web.git compsoc-dev` and then `cd compsoc-dev`.
 2. Point `compsoc.lancs.local` to the provided IP address in your `/etc/hosts` file.
