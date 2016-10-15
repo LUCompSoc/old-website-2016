@@ -96,7 +96,7 @@ class Plugin extends PluginBase
             'jobs' => [
                 'label'       => 'compsoc.jobs::lang.jobs.menu_label',
                 'url'         => Backend::url('compsoc/jobs/listings'),
-                'icon'        => 'icon-pencil',
+                'icon'        => 'icon-copy',
             //  'iconSvg'     => 'plugins/compsoc/jobs/assets/images/jobs-icon.svg',
                 'permissions' => ['compsoc.jobs.*'],
                 'order'       => 30,
