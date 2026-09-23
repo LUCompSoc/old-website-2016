@@ -1,3 +1,12 @@
+> [!WARNING]
+> This is an old website for **LUCompSoc**, archived for your viewing purposes.
+> Find the new website on our [GitHub](https://github.com/LUCompSoc).
+> Below are some stats of the repo, in-case you're curious :D
+> 
+> - **Created:** 12th September 2016
+> - **Last updated:** 4th November 2016
+> - **More info:** [GitWhois](https://gitwhois.com/LUCompSoc/old-website-2016)
+
 ## Lancaster University Computer Science Society Website
 
 This is the main site for LUCSS which is built on top of [October](https://octobercms.com) (which in turn is built on top of [Laravel](https://laravel.com)).
